@@ -1,0 +1,7 @@
+# 인증키 파일은 인터넷(GitHub)에 올리지 않음
+.env
+node_modules/
+.cache/
+.theme-preview/
+# 지원금 데이터는 GitHub에서 매일 새로 만들어 공개하므로 저장소에는 올리지 않음
+data/

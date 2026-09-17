@@ -1,0 +1,69 @@
+# 매일 새벽 5시(한국시간)에 보조금24 데이터를 받아 GitHub Pages로 공개
+#   공개 주소: https://<아이디>.github.io/<저장소이름>/data/list.json
+#   필요한 설정: 저장소 Settings → Secrets and variables → Actions → DATA_GO_KR_KEY (공공데이터포털 인증키)
+#               저장소 Settings → Pages → Source: GitHub Actions
+name: 지원금 데이터 매일 갱신
+
+on:
+  schedule:
+    - cron: '0 20 * * *'   # UTC 20:00 = 한국시간 새벽 5:00
+  workflow_dispatch:        # Actions 탭에서 [Run workflow] 로 바로 실행 가능
+  push:
+    branches: [main]
+
+permissions:
+  contents: write           # 60일 활동 유지용 빈 커밋
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: 공공데이터포털에서 지원금 받기
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        run: node scripts/fetch-data.mjs
+
+      - name: 공개할 파일 모으기
+        run: |
+          mkdir -p _site
+          cp -r data _site/data
+          cp -r src _site/src
+          touch _site/.nojekyll
+          printf '<!doctype html><meta charset="utf-8"><title>정부지원금 찾기 데이터</title><p>정부지원금 찾기 블로그용 데이터 저장소입니다.</p>' > _site/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      # GitHub은 60일 동안 저장소 활동이 없으면 예약 실행을 멈춤 → 50일마다 빈 커밋으로 유지
+      - name: 예약 실행 유지
+        if: github.event_name == 'schedule'
+        run: |
+          last=$(git log -1 --format=%ct)
+          now=$(date +%s)
+          if [ $(( (now - last) / 86400 )) -ge 50 ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit --allow-empty -m "예약 실행 유지 (자동)"
+            git push
+          fi
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4

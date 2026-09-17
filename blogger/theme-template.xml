@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+
+  <!-- 2.구글 서치 콘솔 설정값  -->
+  <meta content='T5-b2O5_rlIeXmMY3Y5mZFBKYJjL62T3-csS10KZMuE' name='google-site-verification'/>
+
+  <!-- 3.네이버 서치 어드바이져 설정값  -->
+  <meta content='f3ddc0203560f534ae63c506ad2bb140ff5a100f' name='naver-site-verification'/>
+
+  <!-- 4.문형탁 애드센스 코드 (자동광고: 양쪽 사이드 레일 광고도 이 코드로 표시됨) -->
+  <script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5167405501174218'/>
+
+  <!-- 1. 아로스 애드센스 무효트래픽 방지코드 -->
+  <script>
+    window.redirectTarget = &quot;https://letsdoooit.com&quot;;
+  </script>
+  <script src='https://cdn.jsdelivr.net/gh/abaeksite/aros_adsense_blocker@main/aros_adsense_blocker_v7-1.js'/>
+
+<!-- Open Graph 메타 태그 -->
+<meta content='정부지원금 찾기 - 공공데이터포털 최신 정부지원금' property='og:title'/>
+<meta content='나이·지역·소득·가구 상황을 선택하면 받을 수 있는 정부지원금 1만여 개를 찾아드립니다. 공공데이터포털 최신 데이터로 매일 갱신됩니다.' property='og:description'/>
+<meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj98s-jC6pHXI5Av1AYkaVpTeDbMVZypSsMtY5pYbrdNtobY2gW8NVhZwNTDwCrzg-npSiy8gUIJiQ19vCRIZVI3ReLoSWXEAeZFWIwi0afsjNtEf7hyFByA9Y3AMwz_ncq4prLC27UrqNhcjtMLHQoaReCnFl103JMRWWFPBTD4gvAObdx2sqfOb28itU/w640-h426-rw/%EC%A0%95%EB%B6%80%EC%A7%80%EC%9B%90%EA%B8%88%EC%B0%BE%EA%B8%B0.webp' property='og:image'/>
+<meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj98s-jC6pHXI5Av1AYkaVpTeDbMVZypSsMtY5pYbrdNtobY2gW8NVhZwNTDwCrzg-npSiy8gUIJiQ19vCRIZVI3ReLoSWXEAeZFWIwi0afsjNtEf7hyFByA9Y3AMwz_ncq4prLC27UrqNhcjtMLHQoaReCnFl103JMRWWFPBTD4gvAObdx2sqfOb28itU/w640-h426-rw/%EC%A0%95%EB%B6%80%EC%A7%80%EC%9B%90%EA%B8%88%EC%B0%BE%EA%B8%B0.webp' property='og:image:secure_url'/>
+<meta content='1200' property='og:image:width'/>
+<meta content='630' property='og:image:height'/>
+<meta content='정부지원금 찾기' property='og:image:alt'/>
+<meta expr:content='data:blog.url' property='og:url'/>
+<meta content='website' property='og:type'/>
+<meta content='정부지원금 찾기' property='og:site_name'/>
+
+<!-- Twitter Card 메타 태그 -->
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='정부지원금 찾기 - 공공데이터포털 최신 정부지원금' name='twitter:title'/>
+<meta content='내 상황을 선택하면 받을 수 있는 정부지원금을 찾아드립니다.' name='twitter:description'/>
+<meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj98s-jC6pHXI5Av1AYkaVpTeDbMVZypSsMtY5pYbrdNtobY2gW8NVhZwNTDwCrzg-npSiy8gUIJiQ19vCRIZVI3ReLoSWXEAeZFWIwi0afsjNtEf7hyFByA9Y3AMwz_ncq4prLC27UrqNhcjtMLHQoaReCnFl103JMRWWFPBTD4gvAObdx2sqfOb28itU/w640-h426-rw/%EC%A0%95%EB%B6%80%EC%A7%80%EC%9B%90%EA%B8%88%EC%B0%BE%EA%B8%B0.webp' name='twitter:image'/>
+<meta content='정부지원금 찾기' name='twitter:image:alt'/>
+
+<!-- 기본 메타 태그 -->
+<meta content='나이·지역·소득·가구 상황을 선택하면 받을 수 있는 정부지원금 1만여 개를 찾아드립니다. 공공데이터포털 최신 데이터로 매일 갱신됩니다.' name='description'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj98s-jC6pHXI5Av1AYkaVpTeDbMVZypSsMtY5pYbrdNtobY2gW8NVhZwNTDwCrzg-npSiy8gUIJiQ19vCRIZVI3ReLoSWXEAeZFWIwi0afsjNtEf7hyFByA9Y3AMwz_ncq4prLC27UrqNhcjtMLHQoaReCnFl103JMRWWFPBTD4gvAObdx2sqfOb28itU/w640-h426-rw/%EC%A0%95%EB%B6%80%EC%A7%80%EC%9B%90%EA%B8%88%EC%B0%BE%EA%B8%B0.webp' rel='image_src'/>
+
+<meta content='width=device-width,initial-scale=1.0' name='viewport'/>
+<link href='https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css' rel='stylesheet'/>
+<b:include data='blog' name='all-head-content'/>
+<title><data:blog.pageTitle/></title>
+
+<b:skin><![CDATA[
+/* 정부지원금 찾기 - 블로그스팟 전용 테마 (scripts/build-theme.mjs 로 자동 생성) */
+/*@@GS24_CSS@@*/
+
+/* 일반 글 화면 (검색·상세 화면이 아닐 때만 보임) */
+.gs24-blog-wrap { max-width: 768px; margin: 0 auto; padding: 0 16px; }
+.gs24-mode-home .gs24-blog-wrap, .gs24-mode-detail .gs24-blog-wrap { display: none; }
+.gs24-blog-wrap .post { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px; margin: 0 0 20px; }
+.gs24-blog-wrap .post-title { font-size: 24px; margin: 0 0 16px; }
+.gs24-blog-wrap .post-title a { color: #1e293b; text-decoration: none; }
+.gs24-blog-wrap .post-body { font-size: 17px; line-height: 1.8; word-break: keep-all; }
+.gs24-blog-wrap .post-body img { max-width: 100%; height: auto; }
+]]></b:skin>
+</head>
+
+<body>
+<header class='shell-header'><a class='shell-logo' expr:href='data:blog.homepageUrl'>정부지원금 찾기</a></header>
+<nav class='shell-tabs' id='gs24-tabs'>
+  <ul>
+    <li><a class='active' href='/#gs24-search'>조건 선택</a></li>
+    <li><a href='/#gs24-results'>검색 결과</a></li>
+    <li><a href='/#gs24-income'>중위소득 계산기</a></li>
+  </ul>
+</nav>
+
+<!-- 검색 화면(홈) / 상세 화면(/p/support-detail.html) 이 그려지는 자리 -->
+<div id='gs24-root'/>
+
+<!-- 일반 블로그 글 (홈·상세 화면에서는 숨김) -->
+<div class='gs24-blog-wrap'>
+<b:section class='main' id='main' showaddelement='no'>
+  <b:widget id='Blog1' locked='true' title='블로그 게시물' type='Blog' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+      <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+      <b:widget-setting name='showAuthor'>false</b:widget-setting>
+      <b:widget-setting name='showTimestamp'>false</b:widget-setting>
+      <b:widget-setting name='showLabels'>false</b:widget-setting>
+      <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+      <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+      <b:widget-setting name='showReactions'>false</b:widget-setting>
+      <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+      <b:widget-setting name='showLocation'>false</b:widget-setting>
+      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='top'>
+      <div class='blog-posts hfeed'>
+        <b:loop values='data:posts' var='post'>
+          <div class='post-outer'>
+            <b:include data='post' name='post'/>
+          </div>
+        </b:loop>
+      </div>
+    </b:includable>
+    <b:includable id='post' var='post'>
+      <div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+        <b:if cond='data:post.title'>
+          <h3 class='post-title entry-title' itemprop='name'>
+            <b:if cond='data:post.link or (data:post.url and data:blog.url != data:post.url)'>
+              <a expr:href='data:post.link ? data:post.link : data:post.url'><data:post.title/></a>
+            <b:else/>
+              <data:post.title/>
+            </b:if>
+          </h3>
+        </b:if>
+        <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+          <data:post.body/>
+          <div style='clear: both;'/>
+        </div>
+      </div>
+    </b:includable>
+  </b:widget>
+</b:section>
+</div>
+
+<footer class='shell-footer'>
+  <div><b>정부지원금 찾기</b>공공데이터포털의 공공서비스(혜택) 정보를 바탕으로 정보 제공을 목적으로 운영됩니다.<br/>
+  신청·조회 등은 각 기관의 공식 홈페이지를 참고하시기 바랍니다.</div>
+</footer>
+
+<script>
+//<![CDATA[
+/*@@GS24_CONFIG_START@@*/
+window.GS24_CONFIG = {
+  listPageUrl: '/',
+  detailPageUrl: '/p/support-detail.html',
+  dataBaseUrl: '@@GS24_DATA_URL@@'
+};
+/*@@GS24_CONFIG_END@@*/
+//]]>
+</script>
+<script>
+//<![CDATA[
+/*@@GS24_JS@@*/
+//]]>
+</script>
+</body>
+</html>

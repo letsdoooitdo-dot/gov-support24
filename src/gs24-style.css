@@ -1,0 +1,406 @@
+/* 정부지원금24 - 검색/상세 화면 스타일 (애드센스팜 지원금 테마 모양에 맞춤) */
+.gs24 {
+  --gs24-primary: #0ea896;       /* 민트 */
+  --gs24-primary-light: #2dc9b0;
+  --gs24-primary-dark: #0b7d70;
+  --gs24-secondary: #06b6d4;
+  --gs24-text: #1e293b;
+  --gs24-text2: #64748b;
+  --gs24-muted: #94a3b8;
+  --gs24-bg2: #f8fafc;
+  --gs24-border: #e2e8f0;
+  --gs24-border2: #cbd5e1;
+  --gs24-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --gs24-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --gs24-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 16px;
+  font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--gs24-text);
+}
+.gs24, .gs24 * { box-sizing: border-box; }
+.gs24 a { text-decoration: none; }
+.gs24 [id] { scroll-margin-top: 180px; }
+
+/* ───────── 메인: 소개 카드 ───────── */
+.gs24 .content-card {
+  background: linear-gradient(135deg, #a8ecdc 0%, #7fdfc9 100%);
+  border-radius: 20px;
+  padding: 40px;
+  margin: 0 0 32px;
+  box-shadow: var(--gs24-shadow-xl);
+}
+.gs24 .card-title { font-size: 25px; font-weight: 700; margin: 0 0 16px; color: var(--gs24-text); }
+.gs24 .card-text { font-size: 17px; line-height: 1.7; margin: 0; color: var(--gs24-text); opacity: 0.85; }
+.gs24 .card-text b { color: #dc2626; }
+.gs24 .card-title small { font-size: 0.667em; font-weight: 700; color: #dc2626; white-space: nowrap; } /* 제목의 2/3 크기 */
+
+/* ───────── 메인: 섹션 제목 ───────── */
+.gs24 .section-title {
+  position: relative;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
+  font-size: 25px; font-weight: 700; color: var(--gs24-text);
+  margin: 48px 0 24px; padding-left: 20px;
+}
+.gs24 .section-title::before {
+  content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+  width: 4px; height: 32px; border-radius: 2px;
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-secondary));
+}
+.gs24 > .section-title:first-child { margin-top: 0; }
+
+/* ───────── 메인: 조건 선택 ───────── */
+.gs24-panel {
+  background: #fff;
+  border: 1px solid var(--gs24-border);
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: var(--gs24-shadow-md);
+}
+.gs24-group { margin-bottom: 26px; }
+.gs24-group h3 { font-size: 18px; font-weight: 700; margin: 0 0 4px; color: var(--gs24-text); }
+.gs24-hint { font-size: 13px; color: var(--gs24-muted); margin: 0 0 12px; }
+.gs24-subtitle { font-size: 15px; font-weight: 600; color: var(--gs24-primary); margin: 14px 0 8px; }
+
+.gs24-chips { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
+.gs24-chips.gs24-chips-3 { grid-template-columns: repeat(3, 1fr); }
+.gs24-chips.gs24-chips-4 { grid-template-columns: repeat(6, 1fr); }
+.gs24-chip {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: 48px; padding: 10px 8px;
+  background: var(--gs24-bg2); color: var(--gs24-text2);
+  border: 1px solid var(--gs24-border); border-radius: 14px;
+  font: inherit; font-size: 15px; font-weight: 500; text-align: center; word-break: keep-all;
+  cursor: pointer; user-select: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.gs24-chip:hover { border-color: var(--gs24-primary-light); color: var(--gs24-primary); }
+.gs24-chip.on {
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-primary-light));
+  color: #fff; border-color: transparent; box-shadow: var(--gs24-shadow-md); transform: translateY(-1px);
+}
+.gs24-chip small { display: block; font-size: 12px; opacity: 0.75; font-weight: 400; }
+.gs24-target { font-size: 16px; font-weight: 600; min-height: 56px; }
+
+.gs24-input {
+  width: 100%; padding: 14px 16px; font: inherit; font-size: 16px; color: var(--gs24-text);
+  background: var(--gs24-bg2); border: 1px solid var(--gs24-border); border-radius: 14px; outline: none;
+}
+.gs24-input:focus { border-color: var(--gs24-primary); background: #fff; box-shadow: 0 0 0 3px rgba(14, 168, 150, 0.18); }
+
+.gs24-more { border: 2px dashed var(--gs24-border2); border-radius: 16px; padding: 0 16px; margin-bottom: 26px; }
+.gs24-more > summary {
+  cursor: pointer; padding: 16px 0; font-size: 16px; font-weight: 600; color: var(--gs24-primary); list-style: none;
+}
+.gs24-more > summary::-webkit-details-marker { display: none; }
+.gs24-more > summary::after { content: ' ▼'; font-size: 12px; }
+.gs24-more[open] > summary::after { content: ' ▲'; }
+
+.gs24-actions { display: flex; gap: 10px; }
+.gs24-btn-main {
+  flex: 1; border: none; cursor: pointer;
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-primary-light)); color: #fff;
+  padding: 18px; border-radius: 16px; font: inherit; font-size: 18px; font-weight: 700;
+  transition: all 0.3s ease;
+}
+.gs24-btn-main:hover { transform: scale(1.02); box-shadow: 0 4px 15px rgba(14, 168, 150, 0.35); }
+.gs24-btn-sub {
+  border: 1px solid var(--gs24-border2); background: #fff; color: var(--gs24-text2); cursor: pointer;
+  padding: 0 20px; border-radius: 16px; font: inherit; font-size: 15px;
+}
+
+/* ───────── 메인: 결과 ───────── */
+.gs24-count {
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-primary-light)); color: #fff;
+  padding: 4px 14px; border-radius: 20px; font-size: 14px; font-weight: 600;
+}
+.gs24-sort {
+  display: flex; gap: 4px; padding: 6px; margin-bottom: 20px;
+  background: var(--gs24-bg2); border: 1px solid var(--gs24-border); border-radius: 20px; box-shadow: var(--gs24-shadow-md);
+}
+.gs24-sort button {
+  flex: 1; padding: 12px 8px; border: none; border-radius: 14px; cursor: pointer;
+  background: transparent; color: var(--gs24-text2); font: inherit; font-size: 14px; font-weight: 500;
+  transition: all 0.2s ease;
+}
+.gs24-sort button.on {
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-primary-light)); color: #fff;
+  box-shadow: var(--gs24-shadow-md);
+}
+
+.gs24 .support-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 20px 0; }
+.gs24 .support-card {
+  position: relative; display: block; overflow: hidden;
+  min-height: 150px; padding: 22px 22px 64px; border-radius: 20px;
+  color: #fff; cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+.gs24 .support-card:hover { transform: translateY(-4px) scale(1.02); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15); }
+.gs24 .support-meta, .gs24 .support-org {
+  font-size: 13px; opacity: 0.85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.gs24 .support-meta { margin-bottom: 6px; }
+.gs24 .support-title {
+  font-size: 18px; font-weight: 700; line-height: 1.35; margin-bottom: 6px; word-break: keep-all;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.gs24 .support-dday {
+  display: inline-block; margin-right: 4px; padding: 0 8px; border-radius: 10px;
+  background: #ef4444; color: #fff; font-weight: 700;
+}
+.gs24 .support-icon {
+  position: absolute; bottom: 18px; right: 18px; max-width: calc(100% - 36px);
+  padding: 8px 16px; border-radius: 25px;
+  background: rgba(255, 255, 255, 0.2); color: #fff; font-size: 14px; font-weight: 800;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.22);
+  transition: all 0.2s ease;
+}
+.gs24 .support-card:hover .support-icon { transform: translateY(-2px); filter: brightness(1.08); }
+
+/* 금액 버튼 = 카드 색의 보색 */
+.gs24 .card-blue .support-icon { background: #ffa726; color: #3a2100; }        /* 파랑 ↔ 주황 */
+.gs24 .card-blue2 .support-icon { background: #facc15; color: #3a2e00; }       /* 남보라 ↔ 노랑 */
+.gs24 .card-darkblue .support-icon { background: #fbbf24; color: #3a2800; }    /* 남색 ↔ 호박색 */
+.gs24 .card-royalblue .support-icon { background: #fb923c; color: #3a1a00; }   /* 진파랑 ↔ 오렌지 */
+.gs24 .card-teal .support-icon { background: #f43f5e; color: #fff; }           /* 청록 ↔ 장미색 */
+.gs24 .card-seagreen .support-icon { background: #f97316; color: #fff; }       /* 하늘청록 ↔ 주홍 */
+.gs24 .card-forestgreen .support-icon { background: #ec4899; color: #fff; }    /* 초록 ↔ 분홍 */
+.gs24 .card-violet .support-icon { background: #d9f99d; color: #283a00; }      /* 보라 ↔ 연두 */
+.gs24 .card-lightpurple .support-icon { background: #a3e635; color: #1f2d00; } /* 연보라 ↔ 라임 */
+.gs24 .card-amber .support-icon { background: #2563eb; color: #fff; }          /* 주황 ↔ 파랑 */
+.gs24 .card-mustard .support-icon { background: #3b82f6; color: #fff; }        /* 황토 ↔ 밝은 파랑 */
+
+.gs24 .card-blue { background: linear-gradient(135deg, #4285f4 0%, #5a9cff 100%); }
+.gs24 .card-blue2 { background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); }
+.gs24 .card-darkblue { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
+.gs24 .card-royalblue { background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%); }
+.gs24 .card-teal { background: linear-gradient(135deg, #0d9488 0%, #14b8a6 100%); }
+.gs24 .card-seagreen { background: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%); }
+.gs24 .card-forestgreen { background: linear-gradient(135deg, #059669 0%, #10b981 100%); }
+.gs24 .card-violet { background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%); }
+.gs24 .card-lightpurple { background: linear-gradient(135deg, #a855f7 0%, #c084fc 100%); }
+.gs24 .card-amber { background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%); }
+.gs24 .card-mustard { background: linear-gradient(135deg, #a16207 0%, #ca8a04 100%); }
+
+.gs24-empty { grid-column: 1 / -1; text-align: center; color: var(--gs24-text2); font-size: 17px; padding: 50px 0; }
+.gs24-empty b { display: block; font-size: 44px; margin-bottom: 12px; }
+
+.gs24-pages { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin: 24px 0 8px; }
+.gs24-pages button {
+  min-width: 42px; padding: 9px 12px; border-radius: 12px; cursor: pointer;
+  border: 1px solid var(--gs24-border); background: var(--gs24-bg2); color: var(--gs24-text2); font: inherit; font-size: 14px;
+}
+.gs24-pages button.on {
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-primary-light)); color: #fff; border-color: transparent;
+}
+.gs24-pages button:disabled { opacity: 0.4; cursor: default; }
+
+.gs24-spinner {
+  display: inline-block; width: 40px; height: 40px;
+  border: 4px solid var(--gs24-border); border-top-color: var(--gs24-primary);
+  border-radius: 50%; animation: gs24-spin 1s linear infinite;
+}
+@keyframes gs24-spin { to { transform: rotate(360deg); } }
+
+.gs24-source {
+  margin: 32px 0 0; padding: 18px 20px; border-radius: 16px;
+  background: var(--gs24-bg2); border: 1px solid var(--gs24-border);
+  font-size: 13px; line-height: 1.7; color: var(--gs24-text2);
+}
+.gs24-ad-slot { margin: 24px 0; min-height: 0; text-align: center; }
+.gs24-ad-slot:empty { display: none; }
+.gs24 .section-title + .gs24-ad-slot, .gs24-ad-slot + .section-title { margin-top: 24px; }
+
+/* 양쪽 사이드 광고 (본문 768px 바깥, 넓은 화면에서만) */
+.gs24-side-ad {
+  position: fixed; top: 170px; z-index: 5; width: 160px; min-height: 600px;
+}
+.gs24-side-ad.left { right: calc(50% + 384px + 20px); }
+.gs24-side-ad.right { left: calc(50% + 384px + 20px); }
+@media (max-width: 1149px) { .gs24-side-ad { display: none; } }
+
+/* 미리보기용 광고 자리 표시 */
+.gs24-ad-preview {
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  min-height: 110px; border: 2px dashed #f59e0b; border-radius: 12px;
+  background: repeating-linear-gradient(45deg, #fffbeb, #fffbeb 10px, #fef3c7 10px, #fef3c7 20px);
+  color: #92400e; font-size: 15px; font-weight: 700; line-height: 1.5; text-align: center;
+}
+.gs24-ad-preview small { font-size: 12px; font-weight: 500; }
+.gs24-ad-preview.side { width: 160px; height: 600px; }
+
+/* ───────── 메인: 중위소득 계산기 ───────── */
+.gs24-calc-intro { font-size: 16px; margin: 0 0 20px; color: var(--gs24-text); word-break: keep-all; }
+.gs24-calc-intro b { color: var(--gs24-primary-dark); }
+.gs24-money { display: flex; align-items: center; gap: 10px; }
+.gs24-money .gs24-input { font-size: 20px; font-weight: 600; text-align: right; }
+.gs24-money span { flex: none; font-size: 17px; font-weight: 600; color: var(--gs24-text2); }
+.gs24-calc-box {
+  margin: 0 0 20px; padding: 24px 20px; border-radius: 16px; text-align: center;
+  background: linear-gradient(135deg, #e6faf6 0%, #d3f5ec 100%); border: 1px solid #b8ebdf;
+}
+.gs24-calc-empty { color: var(--gs24-text2); font-size: 15px; line-height: 1.7; }
+.gs24-calc-label { font-size: 15px; color: var(--gs24-text2); word-break: keep-all; }
+.gs24-calc-percent { font-size: 22px; font-weight: 700; margin: 4px 0 14px; }
+.gs24-calc-percent b { font-size: 40px; color: var(--gs24-primary-dark); }
+.gs24-calc-bar { height: 14px; border-radius: 7px; background: #fff; border: 1px solid #b8ebdf; overflow: hidden; }
+.gs24-calc-bar span {
+  display: block; height: 100%; border-radius: 7px;
+  background: linear-gradient(90deg, var(--gs24-primary), var(--gs24-primary-light));
+}
+.gs24-calc-ticks { display: flex; justify-content: space-between; font-size: 12px; color: var(--gs24-muted); margin: 4px 0 14px; }
+.gs24-calc-band { font-size: 16px; margin-bottom: 4px; word-break: keep-all; }
+.gs24-calc-band b { color: #dc2626; }
+.gs24-calc-sub { font-size: 13px; color: var(--gs24-text2); margin-bottom: 16px; }
+.gs24-calc-table table { width: 100%; border-collapse: collapse; margin: 0 0 8px; font-size: 14px; }
+.gs24-calc-table th, .gs24-calc-table td { padding: 9px 6px; border-bottom: 1px solid var(--gs24-border); text-align: right; white-space: nowrap; }
+.gs24-calc-table th { background: var(--gs24-bg2); color: var(--gs24-text2); font-weight: 600; }
+.gs24-calc-table th:first-child, .gs24-calc-table td:first-child { text-align: center; }
+.gs24-calc-table td:nth-child(2) { font-weight: 700; color: var(--gs24-primary-dark); }
+
+/* ───────── 상세 화면 (애드센스팜 글 페이지 모양) ───────── */
+.gs24-detail-wrap { color: #333; }
+.gs24 .farm-gray-card-center {
+  background: #f0f4ff; border-radius: 25px; padding: 25px; margin: 20px 0; text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.gs24 .farm-gray-card-center h2 { font-size: 28px; font-weight: 700; color: #1a2b88; margin: 0 0 10px; word-break: keep-all; }
+.gs24 .farm-gray-card-center p { margin: 0; color: #666; }
+.gs24 .gs24-tags { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.gs24 .gs24-tag {
+  background: #fff; color: var(--gs24-primary-dark); padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600;
+}
+.gs24 .gs24-tag.red { color: #ef4444; }
+
+.gs24 .farm-gray-card, .gs24 .farm-white-card, .gs24 .farm-blue-card {
+  border-radius: 16px; margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.gs24 .farm-gray-card { background: #fff; padding: 25px; }
+.gs24 .farm-white-card { background: #fff; padding: 20px; border: 1px solid rgba(0, 0, 0, 0.1); }
+.gs24 .farm-blue-card { background: #eef6ff; padding: 20px; }
+.gs24 .farm-gray-card h3 { font-size: 23px; font-weight: 700; color: #363636; margin: 0 0 5px; }
+.gs24 .farm-white-card h2 { font-size: 20px; font-weight: 700; color: #1a2b88; margin: 2px 0 15px; }
+.gs24 .farm-blue-card h2 { font-size: 20px; font-weight: 700; color: #2196f3; margin: 2px 0 15px; }
+.gs24 .apply-date-text { color: #1a2b88; font-size: 22px; font-weight: 700; margin: 0 0 4px; word-break: keep-all; white-space: pre-line; }
+.gs24 .apply-text { color: #666; margin: 0; }
+.gs24 .highlight-box { background: #f3f4f6; border-radius: 8px; margin-top: 15px; padding: 15px; }
+.gs24 .requirement-item { margin-bottom: 12px; }
+.gs24 .requirement-item:last-child { margin-bottom: 0; }
+.gs24 .requirement-title { font-weight: 600; color: #1a2b88; margin-bottom: 4px; }
+.gs24 .requirement-desc { color: #666; font-size: 15px; white-space: pre-line; word-break: keep-all; }
+.gs24 .documents { margin-top: 15px; padding: 15px; background: #f3f4f6; border-radius: 8px; }
+.gs24 .documents-title { font-size: 16px; font-weight: 700; color: #1a2b88; margin-bottom: 8px; }
+.gs24 .gs24-text { color: #444; line-height: 1.8; word-break: keep-all; }
+
+.gs24 .farm-blue-button, .gs24 .farm-gray-button {
+  display: flex; justify-content: center; align-items: center;
+  width: 100%; margin: 15px auto; border-radius: 1rem; text-align: center;
+  border: 1px solid #cacbcb; cursor: pointer;
+}
+.gs24 .farm-blue-button {
+  min-height: 64px; background: var(--gs24-primary); border-color: var(--gs24-primary);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.1);
+}
+.gs24 .farm-gray-button {
+  min-height: 64px; background: #6528f7; border-color: #6528f7; /* 보라색 */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.1);
+}
+.gs24 .farm-blue-button a, .gs24 .farm-gray-button a {
+  display: flex; flex-direction: column; justify-content: center; gap: 0.3rem;
+  width: 100%; padding: 14px 16px; font-size: 22px; font-weight: 700;
+}
+.gs24 .farm-blue-button a { color: #fff; }
+.gs24 .farm-gray-button a { color: #fff; word-break: keep-all; }
+.gs24 .farm-gray-button span { font-size: 15px; font-weight: 500; opacity: 0.8; }
+.gs24 .farm-blue-button:hover, .gs24 .farm-gray-button:hover { transform: scale(1.01); }
+
+.gs24 .gs24-pdf-button {
+  display: flex; justify-content: center; align-items: center; width: 100%; min-height: 56px; margin: 15px auto 0;
+  background: #fff; color: var(--gs24-primary-dark); border: 2px solid var(--gs24-primary); border-radius: 1rem;
+  font: inherit; font-size: 19px; font-weight: 700; cursor: pointer; transition: all 0.2s ease;
+}
+.gs24 .gs24-pdf-button:hover { background: #e6faf6; transform: scale(1.01); }
+.gs24-print-only, .gs24-print-root { display: none; }
+
+.gs24 .benefit-card { background: #f8f9fb; border-radius: 16px; margin: 20px 0; padding: 25px; }
+.gs24 .benefit-title { display: flex; align-items: center; margin: 0 0 20px; font-size: 20px; font-weight: 700; color: #333; }
+.gs24 .benefit-title .icon { color: #ff4d4d; margin-right: 8px; }
+.gs24 .benefit-list { background: #f3f4f6; border-radius: 12px; padding: 20px; }
+.gs24 .benefit-item {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  background: #fff; border-radius: 12px; margin-bottom: 12px; padding: 16px; cursor: pointer; transition: 0.3s;
+}
+.gs24 .benefit-item:last-child { margin-bottom: 0; }
+.gs24 .benefit-item:hover { transform: scale(1.02); background: #f8f9fa; }
+.gs24 .benefit-text { color: #333; font-weight: 600; letter-spacing: -0.5px; }
+.gs24 .benefit-text small { display: block; color: #888; font-weight: 400; font-size: 13px; letter-spacing: 0; }
+.gs24 .benefit-arrow { color: var(--gs24-primary); font-weight: 700; font-size: 20px; }
+.gs24 .bottom-button {
+  display: flex; justify-content: center; align-items: center; width: 100%;
+  margin-top: 20px; padding: 18px; border: none; border-radius: 12px; cursor: pointer;
+  background: var(--gs24-primary); color: #fff; font: inherit; font-size: 17px; font-weight: 600; letter-spacing: -0.5px;
+  transition: 0.3s;
+}
+.gs24 .bottom-button:hover { transform: scale(1.02); box-shadow: 0 4px 15px rgba(14, 168, 150, 0.35); }
+.gs24-notice { font-size: 13px; color: #999; text-align: center; margin: 16px 0; }
+
+/* ───────── PDF 저장(인쇄) ───────── */
+@media print {
+  @page { size: A4; margin: 14mm 12mm; }
+  html.gs24-printing, html.gs24-printing body { background: #fff !important; margin: 0 !important; padding: 0 !important; }
+  html.gs24-printing body > * { display: none !important; }
+  html.gs24-printing body > .gs24-print-root { display: block !important; max-width: none; padding: 0; margin: 0; }
+
+  .gs24-print-root { font-size: 13px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .gs24-print-root .gs24-print-head {
+    display: block; margin: 0 0 10px; padding: 0 0 8px; border-bottom: 2px solid #0ea896; font-size: 14px; color: #333;
+  }
+  .gs24-print-root .gs24-print-head small { color: #888; font-size: 10px; word-break: break-all; }
+  .gs24-print-root .gs24-print-only { display: block; margin-top: 10px; font-size: 11px; color: #555; word-break: break-all; }
+  .gs24-print-root .farm-blue-button, .gs24-print-root .farm-gray-button, .gs24-print-root .gs24-pdf-button,
+  .gs24-print-root .gs24-related, .gs24-print-root .gs24-ad-slot, .gs24-print-root .gs24-spinner { display: none !important; }
+  .gs24-print-root .farm-gray-card-center, .gs24-print-root .farm-gray-card,
+  .gs24-print-root .farm-white-card, .gs24-print-root .farm-blue-card {
+    box-shadow: none !important; border: 1px solid #d6dbe3; margin: 8px 0; padding: 12px 14px;
+  }
+  .gs24-print-root .farm-gray-card-center, .gs24-print-root .farm-gray-card { break-inside: avoid; }
+  .gs24-print-root h2, .gs24-print-root h3 { break-after: avoid; }
+  .gs24-print-root .farm-gray-card-center h2 { font-size: 20px; }
+  .gs24-print-root .farm-white-card h2, .gs24-print-root .farm-blue-card h2 { font-size: 15px; margin: 0 0 6px; }
+  .gs24-print-root .farm-gray-card h3 { font-size: 15px; }
+  .gs24-print-root .apply-date-text { font-size: 16px; }
+  .gs24-print-root .gs24-text { line-height: 1.6; }
+  .gs24-print-root .gs24-notice { display: block; margin: 10px 0 0; }
+}
+
+/* ───────── 모바일 ───────── */
+@media (max-width: 768px) {
+  .gs24 .support-grid { grid-template-columns: 1fr; gap: 12px; }
+}
+@media (max-width: 480px) {
+  .gs24 { padding: 0 12px; }
+  .gs24 .content-card { padding: 24px; }
+  .gs24 .card-title { font-size: 24px; }
+  .gs24 .card-text { font-size: 16px; }
+  .gs24 .section-title { font-size: 22px; margin: 36px 0 20px; }
+  .gs24-panel { padding: 20px 16px; }
+  .gs24-chips { grid-template-columns: repeat(2, 1fr); }
+  .gs24-chips.gs24-chips-4 { grid-template-columns: repeat(4, 1fr); gap: 6px; }
+  .gs24-chips-4 .gs24-chip { min-height: 42px; padding: 8px 2px; font-size: 13px; letter-spacing: -0.3px; }
+  .gs24-target { font-size: 14px; }
+  .gs24 .support-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .gs24 .support-card { min-height: 150px; padding: 18px 16px 56px; }
+  .gs24 .support-title { font-size: 16px; }
+  .gs24 .support-meta, .gs24 .support-org { font-size: 12px; }
+  .gs24 .support-icon { font-size: 12px; padding: 5px 10px; bottom: 14px; right: 14px; max-width: calc(100% - 28px); }
+  .gs24 .farm-gray-card-center h2 { font-size: 24px; }
+  .gs24 .farm-blue-button a, .gs24 .farm-gray-button a { font-size: 19px; }
+  .gs24 .benefit-card { padding: 18px; }
+  .gs24 .benefit-list { padding: 12px; }
+}

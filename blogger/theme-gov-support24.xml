@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+
+  <!-- 2.구글 서치 콘솔 설정값  -->
+  <meta content='T5-b2O5_rlIeXmMY3Y5mZFBKYJjL62T3-csS10KZMuE' name='google-site-verification'/>
+
+  <!-- 3.네이버 서치 어드바이져 설정값  -->
+  <meta content='f3ddc0203560f534ae63c506ad2bb140ff5a100f' name='naver-site-verification'/>
+
+  <!-- 4.문형탁 애드센스 코드 (자동광고: 양쪽 사이드 레일 광고도 이 코드로 표시됨) -->
+  <script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5167405501174218'/>
+
+  <!-- 1. 아로스 애드센스 무효트래픽 방지코드 -->
+  <script>
+    window.redirectTarget = &quot;https://letsdoooit.com&quot;;
+  </script>
+  <script src='https://cdn.jsdelivr.net/gh/abaeksite/aros_adsense_blocker@main/aros_adsense_blocker_v7-1.js'/>
+
+<!-- Open Graph 메타 태그 -->
+<meta content='정부지원금 찾기 - 공공데이터포털 최신 정부지원금' property='og:title'/>
+<meta content='나이·지역·소득·가구 상황을 선택하면 받을 수 있는 정부지원금 1만여 개를 찾아드립니다. 공공데이터포털 최신 데이터로 매일 갱신됩니다.' property='og:description'/>
+<meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj98s-jC6pHXI5Av1AYkaVpTeDbMVZypSsMtY5pYbrdNtobY2gW8NVhZwNTDwCrzg-npSiy8gUIJiQ19vCRIZVI3ReLoSWXEAeZFWIwi0afsjNtEf7hyFByA9Y3AMwz_ncq4prLC27UrqNhcjtMLHQoaReCnFl103JMRWWFPBTD4gvAObdx2sqfOb28itU/w640-h426-rw/%EC%A0%95%EB%B6%80%EC%A7%80%EC%9B%90%EA%B8%88%EC%B0%BE%EA%B8%B0.webp' property='og:image'/>
+<meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj98s-jC6pHXI5Av1AYkaVpTeDbMVZypSsMtY5pYbrdNtobY2gW8NVhZwNTDwCrzg-npSiy8gUIJiQ19vCRIZVI3ReLoSWXEAeZFWIwi0afsjNtEf7hyFByA9Y3AMwz_ncq4prLC27UrqNhcjtMLHQoaReCnFl103JMRWWFPBTD4gvAObdx2sqfOb28itU/w640-h426-rw/%EC%A0%95%EB%B6%80%EC%A7%80%EC%9B%90%EA%B8%88%EC%B0%BE%EA%B8%B0.webp' property='og:image:secure_url'/>
+<meta content='1200' property='og:image:width'/>
+<meta content='630' property='og:image:height'/>
+<meta content='정부지원금 찾기' property='og:image:alt'/>
+<meta expr:content='data:blog.url' property='og:url'/>
+<meta content='website' property='og:type'/>
+<meta content='정부지원금 찾기' property='og:site_name'/>
+
+<!-- Twitter Card 메타 태그 -->
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='정부지원금 찾기 - 공공데이터포털 최신 정부지원금' name='twitter:title'/>
+<meta content='내 상황을 선택하면 받을 수 있는 정부지원금을 찾아드립니다.' name='twitter:description'/>
+<meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj98s-jC6pHXI5Av1AYkaVpTeDbMVZypSsMtY5pYbrdNtobY2gW8NVhZwNTDwCrzg-npSiy8gUIJiQ19vCRIZVI3ReLoSWXEAeZFWIwi0afsjNtEf7hyFByA9Y3AMwz_ncq4prLC27UrqNhcjtMLHQoaReCnFl103JMRWWFPBTD4gvAObdx2sqfOb28itU/w640-h426-rw/%EC%A0%95%EB%B6%80%EC%A7%80%EC%9B%90%EA%B8%88%EC%B0%BE%EA%B8%B0.webp' name='twitter:image'/>
+<meta content='정부지원금 찾기' name='twitter:image:alt'/>
+
+<!-- 기본 메타 태그 -->
+<meta content='나이·지역·소득·가구 상황을 선택하면 받을 수 있는 정부지원금 1만여 개를 찾아드립니다. 공공데이터포털 최신 데이터로 매일 갱신됩니다.' name='description'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj98s-jC6pHXI5Av1AYkaVpTeDbMVZypSsMtY5pYbrdNtobY2gW8NVhZwNTDwCrzg-npSiy8gUIJiQ19vCRIZVI3ReLoSWXEAeZFWIwi0afsjNtEf7hyFByA9Y3AMwz_ncq4prLC27UrqNhcjtMLHQoaReCnFl103JMRWWFPBTD4gvAObdx2sqfOb28itU/w640-h426-rw/%EC%A0%95%EB%B6%80%EC%A7%80%EC%9B%90%EA%B8%88%EC%B0%BE%EA%B8%B0.webp' rel='image_src'/>
+
+<meta content='width=device-width,initial-scale=1.0' name='viewport'/>
+<link href='https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css' rel='stylesheet'/>
+<b:include data='blog' name='all-head-content'/>
+<title><data:blog.pageTitle/></title>
+
+<b:skin><![CDATA[
+/* 정부지원금 찾기 - 블로그스팟 전용 테마 (scripts/build-theme.mjs 로 자동 생성) */
+/* 헤더·탭·푸터 (블로그 테마와 미리보기에서 함께 사용) */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #fff; color: #1e293b; line-height: 1.6;
+  padding-top: 170px;
+}
+body.page-detail { background: #f7f9fc; }
+
+.shell-header {
+  position: fixed; top: 0; left: 0; width: 100%; height: 70px; z-index: 1000;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(20px);
+  border-bottom: 1px solid #e2e8f0; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.shell-logo {
+  font-size: 24px; font-weight: 700; text-decoration: none;
+  background: linear-gradient(135deg, #0ea896, #06b6d4);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.shell-tabs {
+  position: fixed; top: 70px; left: 0; width: 100%; z-index: 999; padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(20px);
+  border-bottom: 1px solid #e2e8f0; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.shell-tabs ul {
+  display: flex; gap: 4px; list-style: none; max-width: 736px; margin: 0 auto; padding: 6px;
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.shell-tabs li { flex: 1; text-align: center; }
+.shell-tabs a {
+  display: block; padding: 14px 8px; border-radius: 14px;
+  color: #64748b; font-size: 14px; font-weight: 500; text-decoration: none; transition: all 0.3s;
+}
+.shell-tabs a.active, .shell-tabs a:hover {
+  color: #fff; background: linear-gradient(135deg, #0ea896, #2dc9b0);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.shell-footer {
+  margin-top: 48px; padding: 32px 16px; background: #f8fafc; border-top: 1px solid #e2e8f0;
+}
+.shell-footer div { max-width: 736px; margin: 0 auto; font-size: 14px; color: #64748b; }
+.shell-footer b { display: block; font-size: 20px; color: #555; margin-bottom: 8px; }
+
+@media (max-width: 480px) {
+  body { padding-top: 160px; }
+  .shell-logo { font-size: 20px; }
+  .shell-tabs { padding: 10px 12px; }
+  .shell-tabs a { padding: 12px 6px; font-size: 13px; }
+}
+
+/* 정부지원금24 - 검색/상세 화면 스타일 (애드센스팜 지원금 테마 모양에 맞춤) */
+.gs24 {
+  --gs24-primary: #0ea896;       /* 민트 */
+  --gs24-primary-light: #2dc9b0;
+  --gs24-primary-dark: #0b7d70;
+  --gs24-secondary: #06b6d4;
+  --gs24-text: #1e293b;
+  --gs24-text2: #64748b;
+  --gs24-muted: #94a3b8;
+  --gs24-bg2: #f8fafc;
+  --gs24-border: #e2e8f0;
+  --gs24-border2: #cbd5e1;
+  --gs24-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --gs24-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --gs24-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 16px;
+  font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--gs24-text);
+}
+.gs24, .gs24 * { box-sizing: border-box; }
+.gs24 a { text-decoration: none; }
+.gs24 [id] { scroll-margin-top: 180px; }
+
+/* ───────── 메인: 소개 카드 ───────── */
+.gs24 .content-card {
+  background: linear-gradient(135deg, #a8ecdc 0%, #7fdfc9 100%);
+  border-radius: 20px;
+  padding: 40px;
+  margin: 0 0 32px;
+  box-shadow: var(--gs24-shadow-xl);
+}
+.gs24 .card-title { font-size: 25px; font-weight: 700; margin: 0 0 16px; color: var(--gs24-text); }
+.gs24 .card-text { font-size: 17px; line-height: 1.7; margin: 0; color: var(--gs24-text); opacity: 0.85; }
+.gs24 .card-text b { color: #dc2626; }
+.gs24 .card-title small { font-size: 0.667em; font-weight: 700; color: #dc2626; white-space: nowrap; } /* 제목의 2/3 크기 */
+
+/* ───────── 메인: 섹션 제목 ───────── */
+.gs24 .section-title {
+  position: relative;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
+  font-size: 25px; font-weight: 700; color: var(--gs24-text);
+  margin: 48px 0 24px; padding-left: 20px;
+}
+.gs24 .section-title::before {
+  content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+  width: 4px; height: 32px; border-radius: 2px;
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-secondary));
+}
+.gs24 > .section-title:first-child { margin-top: 0; }
+
+/* ───────── 메인: 조건 선택 ───────── */
+.gs24-panel {
+  background: #fff;
+  border: 1px solid var(--gs24-border);
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: var(--gs24-shadow-md);
+}
+.gs24-group { margin-bottom: 26px; }
+.gs24-group h3 { font-size: 18px; font-weight: 700; margin: 0 0 4px; color: var(--gs24-text); }
+.gs24-hint { font-size: 13px; color: var(--gs24-muted); margin: 0 0 12px; }
+.gs24-subtitle { font-size: 15px; font-weight: 600; color: var(--gs24-primary); margin: 14px 0 8px; }
+
+.gs24-chips { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
+.gs24-chips.gs24-chips-3 { grid-template-columns: repeat(3, 1fr); }
+.gs24-chips.gs24-chips-4 { grid-template-columns: repeat(6, 1fr); }
+.gs24-chip {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: 48px; padding: 10px 8px;
+  background: var(--gs24-bg2); color: var(--gs24-text2);
+  border: 1px solid var(--gs24-border); border-radius: 14px;
+  font: inherit; font-size: 15px; font-weight: 500; text-align: center; word-break: keep-all;
+  cursor: pointer; user-select: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.gs24-chip:hover { border-color: var(--gs24-primary-light); color: var(--gs24-primary); }
+.gs24-chip.on {
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-primary-light));
+  color: #fff; border-color: transparent; box-shadow: var(--gs24-shadow-md); transform: translateY(-1px);
+}
+.gs24-chip small { display: block; font-size: 12px; opacity: 0.75; font-weight: 400; }
+.gs24-target { font-size: 16px; font-weight: 600; min-height: 56px; }
+
+.gs24-input {
+  width: 100%; padding: 14px 16px; font: inherit; font-size: 16px; color: var(--gs24-text);
+  background: var(--gs24-bg2); border: 1px solid var(--gs24-border); border-radius: 14px; outline: none;
+}
+.gs24-input:focus { border-color: var(--gs24-primary); background: #fff; box-shadow: 0 0 0 3px rgba(14, 168, 150, 0.18); }
+
+.gs24-more { border: 2px dashed var(--gs24-border2); border-radius: 16px; padding: 0 16px; margin-bottom: 26px; }
+.gs24-more > summary {
+  cursor: pointer; padding: 16px 0; font-size: 16px; font-weight: 600; color: var(--gs24-primary); list-style: none;
+}
+.gs24-more > summary::-webkit-details-marker { display: none; }
+.gs24-more > summary::after { content: ' ▼'; font-size: 12px; }
+.gs24-more[open] > summary::after { content: ' ▲'; }
+
+.gs24-actions { display: flex; gap: 10px; }
+.gs24-btn-main {
+  flex: 1; border: none; cursor: pointer;
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-primary-light)); color: #fff;
+  padding: 18px; border-radius: 16px; font: inherit; font-size: 18px; font-weight: 700;
+  transition: all 0.3s ease;
+}
+.gs24-btn-main:hover { transform: scale(1.02); box-shadow: 0 4px 15px rgba(14, 168, 150, 0.35); }
+.gs24-btn-sub {
+  border: 1px solid var(--gs24-border2); background: #fff; color: var(--gs24-text2); cursor: pointer;
+  padding: 0 20px; border-radius: 16px; font: inherit; font-size: 15px;
+}
+
+/* ───────── 메인: 결과 ───────── */
+.gs24-count {
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-primary-light)); color: #fff;
+  padding: 4px 14px; border-radius: 20px; font-size: 14px; font-weight: 600;
+}
+.gs24-sort {
+  display: flex; gap: 4px; padding: 6px; margin-bottom: 20px;
+  background: var(--gs24-bg2); border: 1px solid var(--gs24-border); border-radius: 20px; box-shadow: var(--gs24-shadow-md);
+}
+.gs24-sort button {
+  flex: 1; padding: 12px 8px; border: none; border-radius: 14px; cursor: pointer;
+  background: transparent; color: var(--gs24-text2); font: inherit; font-size: 14px; font-weight: 500;
+  transition: all 0.2s ease;
+}
+.gs24-sort button.on {
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-primary-light)); color: #fff;
+  box-shadow: var(--gs24-shadow-md);
+}
+
+.gs24 .support-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 20px 0; }
+.gs24 .support-card {
+  position: relative; display: block; overflow: hidden;
+  min-height: 150px; padding: 22px 22px 64px; border-radius: 20px;
+  color: #fff; cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+.gs24 .support-card:hover { transform: translateY(-4px) scale(1.02); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15); }
+.gs24 .support-meta, .gs24 .support-org {
+  font-size: 13px; opacity: 0.85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.gs24 .support-meta { margin-bottom: 6px; }
+.gs24 .support-title {
+  font-size: 18px; font-weight: 700; line-height: 1.35; margin-bottom: 6px; word-break: keep-all;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.gs24 .support-dday {
+  display: inline-block; margin-right: 4px; padding: 0 8px; border-radius: 10px;
+  background: #ef4444; color: #fff; font-weight: 700;
+}
+.gs24 .support-icon {
+  position: absolute; bottom: 18px; right: 18px; max-width: calc(100% - 36px);
+  padding: 8px 16px; border-radius: 25px;
+  background: rgba(255, 255, 255, 0.2); color: #fff; font-size: 14px; font-weight: 800;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.22);
+  transition: all 0.2s ease;
+}
+.gs24 .support-card:hover .support-icon { transform: translateY(-2px); filter: brightness(1.08); }
+
+/* 금액 버튼 = 카드 색의 보색 */
+.gs24 .card-blue .support-icon { background: #ffa726; color: #3a2100; }        /* 파랑 ↔ 주황 */
+.gs24 .card-blue2 .support-icon { background: #facc15; color: #3a2e00; }       /* 남보라 ↔ 노랑 */
+.gs24 .card-darkblue .support-icon { background: #fbbf24; color: #3a2800; }    /* 남색 ↔ 호박색 */
+.gs24 .card-royalblue .support-icon { background: #fb923c; color: #3a1a00; }   /* 진파랑 ↔ 오렌지 */
+.gs24 .card-teal .support-icon { background: #f43f5e; color: #fff; }           /* 청록 ↔ 장미색 */
+.gs24 .card-seagreen .support-icon { background: #f97316; color: #fff; }       /* 하늘청록 ↔ 주홍 */
+.gs24 .card-forestgreen .support-icon { background: #ec4899; color: #fff; }    /* 초록 ↔ 분홍 */
+.gs24 .card-violet .support-icon { background: #d9f99d; color: #283a00; }      /* 보라 ↔ 연두 */
+.gs24 .card-lightpurple .support-icon { background: #a3e635; color: #1f2d00; } /* 연보라 ↔ 라임 */
+.gs24 .card-amber .support-icon { background: #2563eb; color: #fff; }          /* 주황 ↔ 파랑 */
+.gs24 .card-mustard .support-icon { background: #3b82f6; color: #fff; }        /* 황토 ↔ 밝은 파랑 */
+
+.gs24 .card-blue { background: linear-gradient(135deg, #4285f4 0%, #5a9cff 100%); }
+.gs24 .card-blue2 { background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); }
+.gs24 .card-darkblue { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
+.gs24 .card-royalblue { background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%); }
+.gs24 .card-teal { background: linear-gradient(135deg, #0d9488 0%, #14b8a6 100%); }
+.gs24 .card-seagreen { background: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%); }
+.gs24 .card-forestgreen { background: linear-gradient(135deg, #059669 0%, #10b981 100%); }
+.gs24 .card-violet { background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%); }
+.gs24 .card-lightpurple { background: linear-gradient(135deg, #a855f7 0%, #c084fc 100%); }
+.gs24 .card-amber { background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%); }
+.gs24 .card-mustard { background: linear-gradient(135deg, #a16207 0%, #ca8a04 100%); }
+
+.gs24-empty { grid-column: 1 / -1; text-align: center; color: var(--gs24-text2); font-size: 17px; padding: 50px 0; }
+.gs24-empty b { display: block; font-size: 44px; margin-bottom: 12px; }
+
+.gs24-pages { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin: 24px 0 8px; }
+.gs24-pages button {
+  min-width: 42px; padding: 9px 12px; border-radius: 12px; cursor: pointer;
+  border: 1px solid var(--gs24-border); background: var(--gs24-bg2); color: var(--gs24-text2); font: inherit; font-size: 14px;
+}
+.gs24-pages button.on {
+  background: linear-gradient(135deg, var(--gs24-primary), var(--gs24-primary-light)); color: #fff; border-color: transparent;
+}
+.gs24-pages button:disabled { opacity: 0.4; cursor: default; }
+
+.gs24-spinner {
+  display: inline-block; width: 40px; height: 40px;
+  border: 4px solid var(--gs24-border); border-top-color: var(--gs24-primary);
+  border-radius: 50%; animation: gs24-spin 1s linear infinite;
+}
+@keyframes gs24-spin { to { transform: rotate(360deg); } }
+
+.gs24-source {
+  margin: 32px 0 0; padding: 18px 20px; border-radius: 16px;
+  background: var(--gs24-bg2); border: 1px solid var(--gs24-border);
+  font-size: 13px; line-height: 1.7; color: var(--gs24-text2);
+}
+.gs24-ad-slot { margin: 24px 0; min-height: 0; text-align: center; }
+.gs24-ad-slot:empty { display: none; }
+.gs24 .section-title + .gs24-ad-slot, .gs24-ad-slot + .section-title { margin-top: 24px; }
+
+/* 양쪽 사이드 광고 (본문 768px 바깥, 넓은 화면에서만) */
+.gs24-side-ad {
+  position: fixed; top: 170px; z-index: 5; width: 160px; min-height: 600px;
+}
+.gs24-side-ad.left { right: calc(50% + 384px + 20px); }
+.gs24-side-ad.right { left: calc(50% + 384px + 20px); }
+@media (max-width: 1149px) { .gs24-side-ad { display: none; } }
+
+/* 미리보기용 광고 자리 표시 */
+.gs24-ad-preview {
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  min-height: 110px; border: 2px dashed #f59e0b; border-radius: 12px;
+  background: repeating-linear-gradient(45deg, #fffbeb, #fffbeb 10px, #fef3c7 10px, #fef3c7 20px);
+  color: #92400e; font-size: 15px; font-weight: 700; line-height: 1.5; text-align: center;
+}
+.gs24-ad-preview small { font-size: 12px; font-weight: 500; }
+.gs24-ad-preview.side { width: 160px; height: 600px; }
+
+/* ───────── 메인: 중위소득 계산기 ───────── */
+.gs24-calc-intro { font-size: 16px; margin: 0 0 20px; color: var(--gs24-text); word-break: keep-all; }
+.gs24-calc-intro b { color: var(--gs24-primary-dark); }
+.gs24-money { display: flex; align-items: center; gap: 10px; }
+.gs24-money .gs24-input { font-size: 20px; font-weight: 600; text-align: right; }
+.gs24-money span { flex: none; font-size: 17px; font-weight: 600; color: var(--gs24-text2); }
+.gs24-calc-box {
+  margin: 0 0 20px; padding: 24px 20px; border-radius: 16px; text-align: center;
+  background: linear-gradient(135deg, #e6faf6 0%, #d3f5ec 100%); border: 1px solid #b8ebdf;
+}
+.gs24-calc-empty { color: var(--gs24-text2); font-size: 15px; line-height: 1.7; }
+.gs24-calc-label { font-size: 15px; color: var(--gs24-text2); word-break: keep-all; }
+.gs24-calc-percent { font-size: 22px; font-weight: 700; margin: 4px 0 14px; }
+.gs24-calc-percent b { font-size: 40px; color: var(--gs24-primary-dark); }
+.gs24-calc-bar { height: 14px; border-radius: 7px; background: #fff; border: 1px solid #b8ebdf; overflow: hidden; }
+.gs24-calc-bar span {
+  display: block; height: 100%; border-radius: 7px;
+  background: linear-gradient(90deg, var(--gs24-primary), var(--gs24-primary-light));
+}
+.gs24-calc-ticks { display: flex; justify-content: space-between; font-size: 12px; color: var(--gs24-muted); margin: 4px 0 14px; }
+.gs24-calc-band { font-size: 16px; margin-bottom: 4px; word-break: keep-all; }
+.gs24-calc-band b { color: #dc2626; }
+.gs24-calc-sub { font-size: 13px; color: var(--gs24-text2); margin-bottom: 16px; }
+.gs24-calc-table table { width: 100%; border-collapse: collapse; margin: 0 0 8px; font-size: 14px; }
+.gs24-calc-table th, .gs24-calc-table td { padding: 9px 6px; border-bottom: 1px solid var(--gs24-border); text-align: right; white-space: nowrap; }
+.gs24-calc-table th { background: var(--gs24-bg2); color: var(--gs24-text2); font-weight: 600; }
+.gs24-calc-table th:first-child, .gs24-calc-table td:first-child { text-align: center; }
+.gs24-calc-table td:nth-child(2) { font-weight: 700; color: var(--gs24-primary-dark); }
+
+/* ───────── 상세 화면 (애드센스팜 글 페이지 모양) ───────── */
+.gs24-detail-wrap { color: #333; }
+.gs24 .farm-gray-card-center {
+  background: #f0f4ff; border-radius: 25px; padding: 25px; margin: 20px 0; text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.gs24 .farm-gray-card-center h2 { font-size: 28px; font-weight: 700; color: #1a2b88; margin: 0 0 10px; word-break: keep-all; }
+.gs24 .farm-gray-card-center p { margin: 0; color: #666; }
+.gs24 .gs24-tags { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.gs24 .gs24-tag {
+  background: #fff; color: var(--gs24-primary-dark); padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600;
+}
+.gs24 .gs24-tag.red { color: #ef4444; }
+
+.gs24 .farm-gray-card, .gs24 .farm-white-card, .gs24 .farm-blue-card {
+  border-radius: 16px; margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.gs24 .farm-gray-card { background: #fff; padding: 25px; }
+.gs24 .farm-white-card { background: #fff; padding: 20px; border: 1px solid rgba(0, 0, 0, 0.1); }
+.gs24 .farm-blue-card { background: #eef6ff; padding: 20px; }
+.gs24 .farm-gray-card h3 { font-size: 23px; font-weight: 700; color: #363636; margin: 0 0 5px; }
+.gs24 .farm-white-card h2 { font-size: 20px; font-weight: 700; color: #1a2b88; margin: 2px 0 15px; }
+.gs24 .farm-blue-card h2 { font-size: 20px; font-weight: 700; color: #2196f3; margin: 2px 0 15px; }
+.gs24 .apply-date-text { color: #1a2b88; font-size: 22px; font-weight: 700; margin: 0 0 4px; word-break: keep-all; white-space: pre-line; }
+.gs24 .apply-text { color: #666; margin: 0; }
+.gs24 .highlight-box { background: #f3f4f6; border-radius: 8px; margin-top: 15px; padding: 15px; }
+.gs24 .requirement-item { margin-bottom: 12px; }
+.gs24 .requirement-item:last-child { margin-bottom: 0; }
+.gs24 .requirement-title { font-weight: 600; color: #1a2b88; margin-bottom: 4px; }
+.gs24 .requirement-desc { color: #666; font-size: 15px; white-space: pre-line; word-break: keep-all; }
+.gs24 .documents { margin-top: 15px; padding: 15px; background: #f3f4f6; border-radius: 8px; }
+.gs24 .documents-title { font-size: 16px; font-weight: 700; color: #1a2b88; margin-bottom: 8px; }
+.gs24 .gs24-text { color: #444; line-height: 1.8; word-break: keep-all; }
+
+.gs24 .farm-blue-button, .gs24 .farm-gray-button {
+  display: flex; justify-content: center; align-items: center;
+  width: 100%; margin: 15px auto; border-radius: 1rem; text-align: center;
+  border: 1px solid #cacbcb; cursor: pointer;
+}
+.gs24 .farm-blue-button {
+  min-height: 64px; background: var(--gs24-primary); border-color: var(--gs24-primary);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.1);
+}
+.gs24 .farm-gray-button {
+  min-height: 64px; background: #6528f7; border-color: #6528f7; /* 보라색 */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.1);
+}
+.gs24 .farm-blue-button a, .gs24 .farm-gray-button a {
+  display: flex; flex-direction: column; justify-content: center; gap: 0.3rem;
+  width: 100%; padding: 14px 16px; font-size: 22px; font-weight: 700;
+}
+.gs24 .farm-blue-button a { color: #fff; }
+.gs24 .farm-gray-button a { color: #fff; word-break: keep-all; }
+.gs24 .farm-gray-button span { font-size: 15px; font-weight: 500; opacity: 0.8; }
+.gs24 .farm-blue-button:hover, .gs24 .farm-gray-button:hover { transform: scale(1.01); }
+
+.gs24 .gs24-pdf-button {
+  display: flex; justify-content: center; align-items: center; width: 100%; min-height: 56px; margin: 15px auto 0;
+  background: #fff; color: var(--gs24-primary-dark); border: 2px solid var(--gs24-primary); border-radius: 1rem;
+  font: inherit; font-size: 19px; font-weight: 700; cursor: pointer; transition: all 0.2s ease;
+}
+.gs24 .gs24-pdf-button:hover { background: #e6faf6; transform: scale(1.01); }
+.gs24-print-only, .gs24-print-root { display: none; }
+
+.gs24 .benefit-card { background: #f8f9fb; border-radius: 16px; margin: 20px 0; padding: 25px; }
+.gs24 .benefit-title { display: flex; align-items: center; margin: 0 0 20px; font-size: 20px; font-weight: 700; color: #333; }
+.gs24 .benefit-title .icon { color: #ff4d4d; margin-right: 8px; }
+.gs24 .benefit-list { background: #f3f4f6; border-radius: 12px; padding: 20px; }
+.gs24 .benefit-item {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  background: #fff; border-radius: 12px; margin-bottom: 12px; padding: 16px; cursor: pointer; transition: 0.3s;
+}
+.gs24 .benefit-item:last-child { margin-bottom: 0; }
+.gs24 .benefit-item:hover { transform: scale(1.02); background: #f8f9fa; }
+.gs24 .benefit-text { color: #333; font-weight: 600; letter-spacing: -0.5px; }
+.gs24 .benefit-text small { display: block; color: #888; font-weight: 400; font-size: 13px; letter-spacing: 0; }
+.gs24 .benefit-arrow { color: var(--gs24-primary); font-weight: 700; font-size: 20px; }
+.gs24 .bottom-button {
+  display: flex; justify-content: center; align-items: center; width: 100%;
+  margin-top: 20px; padding: 18px; border: none; border-radius: 12px; cursor: pointer;
+  background: var(--gs24-primary); color: #fff; font: inherit; font-size: 17px; font-weight: 600; letter-spacing: -0.5px;
+  transition: 0.3s;
+}
+.gs24 .bottom-button:hover { transform: scale(1.02); box-shadow: 0 4px 15px rgba(14, 168, 150, 0.35); }
+.gs24-notice { font-size: 13px; color: #999; text-align: center; margin: 16px 0; }
+
+/* ───────── PDF 저장(인쇄) ───────── */
+@media print {
+  @page { size: A4; margin: 14mm 12mm; }
+  html.gs24-printing, html.gs24-printing body { background: #fff !important; margin: 0 !important; padding: 0 !important; }
+  html.gs24-printing body > * { display: none !important; }
+  html.gs24-printing body > .gs24-print-root { display: block !important; max-width: none; padding: 0; margin: 0; }
+
+  .gs24-print-root { font-size: 13px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .gs24-print-root .gs24-print-head {
+    display: block; margin: 0 0 10px; padding: 0 0 8px; border-bottom: 2px solid #0ea896; font-size: 14px; color: #333;
+  }
+  .gs24-print-root .gs24-print-head small { color: #888; font-size: 10px; word-break: break-all; }
+  .gs24-print-root .gs24-print-only { display: block; margin-top: 10px; font-size: 11px; color: #555; word-break: break-all; }
+  .gs24-print-root .farm-blue-button, .gs24-print-root .farm-gray-button, .gs24-print-root .gs24-pdf-button,
+  .gs24-print-root .gs24-related, .gs24-print-root .gs24-ad-slot, .gs24-print-root .gs24-spinner { display: none !important; }
+  .gs24-print-root .farm-gray-card-center, .gs24-print-root .farm-gray-card,
+  .gs24-print-root .farm-white-card, .gs24-print-root .farm-blue-card {
+    box-shadow: none !important; border: 1px solid #d6dbe3; margin: 8px 0; padding: 12px 14px;
+  }
+  .gs24-print-root .farm-gray-card-center, .gs24-print-root .farm-gray-card { break-inside: avoid; }
+  .gs24-print-root h2, .gs24-print-root h3 { break-after: avoid; }
+  .gs24-print-root .farm-gray-card-center h2 { font-size: 20px; }
+  .gs24-print-root .farm-white-card h2, .gs24-print-root .farm-blue-card h2 { font-size: 15px; margin: 0 0 6px; }
+  .gs24-print-root .farm-gray-card h3 { font-size: 15px; }
+  .gs24-print-root .apply-date-text { font-size: 16px; }
+  .gs24-print-root .gs24-text { line-height: 1.6; }
+  .gs24-print-root .gs24-notice { display: block; margin: 10px 0 0; }
+}
+
+/* ───────── 모바일 ───────── */
+@media (max-width: 768px) {
+  .gs24 .support-grid { grid-template-columns: 1fr; gap: 12px; }
+}
+@media (max-width: 480px) {
+  .gs24 { padding: 0 12px; }
+  .gs24 .content-card { padding: 24px; }
+  .gs24 .card-title { font-size: 24px; }
+  .gs24 .card-text { font-size: 16px; }
+  .gs24 .section-title { font-size: 22px; margin: 36px 0 20px; }
+  .gs24-panel { padding: 20px 16px; }
+  .gs24-chips { grid-template-columns: repeat(2, 1fr); }
+  .gs24-chips.gs24-chips-4 { grid-template-columns: repeat(4, 1fr); gap: 6px; }
+  .gs24-chips-4 .gs24-chip { min-height: 42px; padding: 8px 2px; font-size: 13px; letter-spacing: -0.3px; }
+  .gs24-target { font-size: 14px; }
+  .gs24 .support-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .gs24 .support-card { min-height: 150px; padding: 18px 16px 56px; }
+  .gs24 .support-title { font-size: 16px; }
+  .gs24 .support-meta, .gs24 .support-org { font-size: 12px; }
+  .gs24 .support-icon { font-size: 12px; padding: 5px 10px; bottom: 14px; right: 14px; max-width: calc(100% - 28px); }
+  .gs24 .farm-gray-card-center h2 { font-size: 24px; }
+  .gs24 .farm-blue-button a, .gs24 .farm-gray-button a { font-size: 19px; }
+  .gs24 .benefit-card { padding: 18px; }
+  .gs24 .benefit-list { padding: 12px; }
+}
+
+
+/* 일반 글 화면 (검색·상세 화면이 아닐 때만 보임) */
+.gs24-blog-wrap { max-width: 768px; margin: 0 auto; padding: 0 16px; }
+.gs24-mode-home .gs24-blog-wrap, .gs24-mode-detail .gs24-blog-wrap { display: none; }
+.gs24-blog-wrap .post { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px; margin: 0 0 20px; }
+.gs24-blog-wrap .post-title { font-size: 24px; margin: 0 0 16px; }
+.gs24-blog-wrap .post-title a { color: #1e293b; text-decoration: none; }
+.gs24-blog-wrap .post-body { font-size: 17px; line-height: 1.8; word-break: keep-all; }
+.gs24-blog-wrap .post-body img { max-width: 100%; height: auto; }
+]]></b:skin>
+</head>
+
+<body>
+<header class='shell-header'><a class='shell-logo' expr:href='data:blog.homepageUrl'>정부지원금 찾기</a></header>
+<nav class='shell-tabs' id='gs24-tabs'>
+  <ul>
+    <li><a class='active' href='/#gs24-search'>조건 선택</a></li>
+    <li><a href='/#gs24-results'>검색 결과</a></li>
+    <li><a href='/#gs24-income'>중위소득 계산기</a></li>
+  </ul>
+</nav>
+
+<!-- 검색 화면(홈) / 상세 화면(/p/support-detail.html) 이 그려지는 자리 -->
+<div id='gs24-root'/>
+
+<!-- 일반 블로그 글 (홈·상세 화면에서는 숨김) -->
+<div class='gs24-blog-wrap'>
+<b:section class='main' id='main' showaddelement='no'>
+  <b:widget id='Blog1' locked='true' title='블로그 게시물' type='Blog' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+      <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+      <b:widget-setting name='showAuthor'>false</b:widget-setting>
+      <b:widget-setting name='showTimestamp'>false</b:widget-setting>
+      <b:widget-setting name='showLabels'>false</b:widget-setting>
+      <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+      <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+      <b:widget-setting name='showReactions'>false</b:widget-setting>
+      <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+      <b:widget-setting name='showLocation'>false</b:widget-setting>
+      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='top'>
+      <div class='blog-posts hfeed'>
+        <b:loop values='data:posts' var='post'>
+          <div class='post-outer'>
+            <b:include data='post' name='post'/>
+          </div>
+        </b:loop>
+      </div>
+    </b:includable>
+    <b:includable id='post' var='post'>
+      <div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+        <b:if cond='data:post.title'>
+          <h3 class='post-title entry-title' itemprop='name'>
+            <b:if cond='data:post.link or (data:post.url and data:blog.url != data:post.url)'>
+              <a expr:href='data:post.link ? data:post.link : data:post.url'><data:post.title/></a>
+            <b:else/>
+              <data:post.title/>
+            </b:if>
+          </h3>
+        </b:if>
+        <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+          <data:post.body/>
+          <div style='clear: both;'/>
+        </div>
+      </div>
+    </b:includable>
+  </b:widget>
+</b:section>
+</div>
+
+<footer class='shell-footer'>
+  <div><b>정부지원금 찾기</b>공공데이터포털의 공공서비스(혜택) 정보를 바탕으로 정보 제공을 목적으로 운영됩니다.<br/>
+  신청·조회 등은 각 기관의 공식 홈페이지를 참고하시기 바랍니다.</div>
+</footer>
+
+<script>
+//<![CDATA[
+/*@@GS24_CONFIG_START@@*/
+window.GS24_CONFIG = {
+  listPageUrl: '/',
+  detailPageUrl: '/p/support-detail.html',
+  dataBaseUrl: 'https://letsdoooitdo-dot.github.io/gov-support24/data/'
+};
+/*@@GS24_CONFIG_END@@*/
+//]]>
+</script>
+<script>
+//<![CDATA[
+/* 정부지원금24 - 블로그스팟 테마용: 주소를 보고 검색 화면 / 상세 화면 / 일반 글 화면을 정하고 탭 메뉴를 만듦 */
+(function () {
+  'use strict';
+  var cfg = window.GS24_CONFIG || {};
+  var root = document.getElementById('gs24-root');
+  var tabs = document.getElementById('gs24-tabs');
+  var html = document.documentElement;
+
+  var path = location.pathname.replace(/\/+$/, '') || '/';
+  var detailPath = cfg.detailPageUrl || '/p/support-detail.html';
+  var home = cfg.listPageUrl || '/';
+
+  var mode = 'blog';
+  if (path === '/' || path === '/index.html') mode = 'home';
+  else if (path === detailPath) mode = 'detail';
+  html.classList.add('gs24-mode-' + mode);
+
+  // 검색 화면·상세 화면 자리 정하기 (gs24-finder.js / gs24-detail.js 가 이 id를 찾아 그림)
+  if (root) {
+    if (mode === 'home') root.id = 'gs24-finder';
+    else if (mode === 'detail') root.id = 'gs24-detail';
+    else root.parentNode.removeChild(root);
+  }
+  if (mode === 'detail') document.body.classList.add('page-detail');
+
+  // 탭 메뉴 [글자, 주소]
+  var items;
+  if (mode === 'home') {
+    items = [['조건 선택', '#gs24-search'], ['검색 결과', '#gs24-results'], ['중위소득 계산기', '#gs24-income']];
+  } else if (mode === 'detail') {
+    items = [['조건 선택', home + '#gs24-search'], ['지원금 상세', '#'], ['PDF 저장', '#gs24-pdf']];
+  } else {
+    items = [['조건 선택', home + '#gs24-search'], ['검색 결과', home + '#gs24-results'], ['중위소득 계산기', home + '#gs24-income']];
+  }
+  var activeIndex = mode === 'detail' ? 1 : 0;
+
+  if (tabs) {
+    tabs.innerHTML = '<ul>' + items.map(function (it, i) {
+      return '<li><a href="' + it[1] + '"' + (i === activeIndex ? ' class="active"' : '') + '>' + it[0] + '</a></li>';
+    }).join('') + '</ul>';
+
+    tabs.addEventListener('click', function (e) {
+      var a = e.target.closest('a');
+      if (!a) return;
+      if (a.getAttribute('href') === '#') e.preventDefault();
+      if (a.getAttribute('href') === '#gs24-pdf') return; // PDF 저장은 탭 표시를 바꾸지 않음
+      Array.prototype.forEach.call(tabs.querySelectorAll('a'), function (x) { x.classList.toggle('active', x === a); });
+    });
+  }
+})();
+
+/* 정부지원금24 - 공통: 설정, 검색조건 분류, 조건 비교, 데이터 불러오기 */
+(function () {
+  'use strict';
+  var GS24 = (window.GS24 = window.GS24 || {});
+
+  GS24.config = Object.assign({
+    listPageUrl: 'index.html',     // 블로그스팟: '/' 또는 검색 페이지 주소
+    detailPageUrl: 'detail.html',  // 블로그스팟: '/p/support-detail.html'
+    dataBaseUrl: '',               // 데이터 창고 주소 (API 키 발급 후 설정)
+    perPage: 9
+  }, window.GS24_CONFIG || {});
+
+  // 애드센스 광고 (slot = 광고 단위 번호, 비워두면 그 자리는 광고 없음)
+  GS24.config.ads = Object.assign({
+    client: 'ca-pub-5167405501174218',
+    top: '6858157581',       // [디스플레이, 수평, 반응형] 블로그 상단 해더 광고 → 조건 선택 위
+    middle: '3416081882',    // [디스플레이, 수평, 반응형] 블로그 중간 광고 → 검색 결과 위
+    bottom: '7163755206',    // [디스플레이, 수평, 반응형] 블로그 하단 광고 → 중위소득 계산기 위
+    // 양쪽 사이드 광고는 기존 블로그처럼 <head>의 애드센스 자동광고(사이드 레일)가 띄움 → 기본은 비워둠
+    // 직접 넣고 싶을 때만 세로형(160x600) 광고 단위 번호를 입력
+    sideLeft: '',
+    sideRight: '',
+    sideMinWidth: 1150,      // 화면이 이보다 넓을 때만 사이드 광고 표시
+    preview: false           // true = 실제 광고 대신 위치 표시 상자 (내 컴퓨터 미리보기용)
+  }, (window.GS24_CONFIG || {}).ads || {});
+
+  /* ───────── 검색조건 분류 ───────── */
+
+  // 공공데이터 '서비스분야' 값 (color = 카드 색)
+  GS24.TOPICS = [
+    { value: '생활안정', icon: '💵', color: 'card-blue' },
+    { value: '주거·자립', icon: '🏠', color: 'card-teal' },
+    { value: '보육·교육', icon: '🎒', color: 'card-amber' },
+    { value: '고용·창업', icon: '💼', color: 'card-darkblue' },
+    { value: '보건·의료', icon: '🏥', color: 'card-forestgreen' },
+    { value: '임신·출산', icon: '🤰', color: 'card-lightpurple' },
+    { value: '보호·돌봄', icon: '🤝', color: 'card-violet' },
+    { value: '문화·환경', icon: '🌳', color: 'card-seagreen' },
+    { value: '농림축산어업', icon: '🌾', color: 'card-mustard' },
+    { value: '행정·안전', icon: '🛡️', color: 'card-royalblue' }
+  ];
+
+  GS24.topicInfo = function (topic) {
+    return GS24.TOPICS.filter(function (t) { return t.value === topic; })[0] || { value: topic, icon: '📋', color: 'card-blue2' };
+  };
+
+  // 공공데이터 '사용자구분' 값을 3가지로 묶음
+  GS24.TARGETS = [
+    { id: 'person', label: '개인·가구', icon: '👤', keywords: ['개인', '가구'] },
+    { id: 'biz', label: '소상공인·자영업', icon: '🏪', keywords: ['소상공인'] },
+    { id: 'org', label: '기업·단체·시설', icon: '🏢', keywords: ['법인', '시설', '단체'] }
+  ];
+
+  // '소관기관명' 앞부분으로 지역을 구분 (중앙부처·공공기관 = 전국)
+  GS24.REGIONS = [
+    { value: '서울특별시', label: '서울' }, { value: '부산광역시', label: '부산' },
+    { value: '대구광역시', label: '대구' }, { value: '인천광역시', label: '인천' },
+    { value: '대전광역시', label: '대전' },
+    { value: '울산광역시', label: '울산' }, { value: '세종특별자치시', label: '세종' },
+    { value: '경기도', label: '경기' }, { value: '강원특별자치도', label: '강원' },
+    { value: '충청북도', label: '충북' }, { value: '충청남도', label: '충남' },
+    { value: '전북특별자치도', label: '전북' }, { value: '전남광주통합특별시', label: '전남·광주' },
+    { value: '경상북도', label: '경북' }, { value: '경상남도', label: '경남' },
+    { value: '제주특별자치도', label: '제주' }
+  ];
+
+  /*
+   * 대상별 세부 조건 ('지원조건' JA 코드)
+   *  - kind 'age'   : 나이 범위 (JA0110 ~ JA0111)
+   *  - kind 'single': 하나만 선택
+   *  - kind 'multi' : 여러 개 선택
+   *  - cond         : 같은 cond 끼리는 하나의 조건 묶음으로 비교
+   *  - openCode     : '해당사항 없음'도 대상이라는 코드 (Y면 이 묶음은 누구나)
+   *  - basic: true  : 처음부터 보이는 조건 (나머지는 '조건 더 보기' 안에)
+   */
+  GS24.FILTERS = {
+    person: [
+      {
+        key: 'age', kind: 'age', basic: true, icon: '🎂', title: '나이',
+        options: [
+          { value: 'baby', label: '영유아', sub: '0~5세', min: 0, max: 5 },
+          { value: 'child', label: '아동', sub: '6~12세', min: 6, max: 12 },
+          { value: 'teen', label: '청소년', sub: '13~18세', min: 13, max: 18 },
+          { value: 'youth', label: '청년', sub: '19~34세', min: 19, max: 34 },
+          { value: 'middle', label: '중장년', sub: '35~64세', min: 35, max: 64 },
+          { value: 'senior', label: '어르신', sub: '65세 이상', min: 65, max: 150 }
+        ]
+      },
+      {
+        key: 'gender', kind: 'single', cond: 'gender', icon: '🚻', title: '성별',
+        options: [{ value: 'JA0101', label: '남성' }, { value: 'JA0102', label: '여성' }]
+      },
+      {
+        key: 'income', kind: 'single', cond: 'income', icon: '💰', title: '가구 소득 수준',
+        hint: '기준 중위소득 기준이에요. 잘 모르면 선택하지 않아도 돼요.',
+        options: [
+          { value: 'JA0201', label: '50% 이하', sub: '기초생활·차상위 수준' },
+          { value: 'JA0202', label: '51~75%' },
+          { value: 'JA0203', label: '76~100%' },
+          { value: 'JA0204', label: '101~200%' },
+          { value: 'JA0205', label: '200% 초과' }
+        ]
+      },
+      {
+        key: 'household', kind: 'multi', cond: 'household', openCode: 'JA0410', icon: '🏡', title: '우리 집 상황',
+        options: [
+          { value: 'JA0404', label: '1인 가구' },
+          { value: 'JA0411', label: '다자녀 가구' },
+          { value: 'JA0403', label: '한부모·조손 가구' },
+          { value: 'JA0401', label: '다문화 가족' },
+          { value: 'JA0402', label: '북한이탈주민' },
+          { value: 'JA0412', label: '무주택 세대' },
+          { value: 'JA0413', label: '새로 이사 옴(전입)' },
+          { value: 'JA0414', label: '확대 가족' }
+        ]
+      },
+      {
+        key: 'life', kind: 'multi', cond: 'life', openCode: 'JA0322', icon: '🙋', title: '나에게 해당하는 것',
+        subgroups: [
+          {
+            title: '👶 임신·출산', options: [
+              { value: 'JA0301', label: '예비부모·난임' },
+              { value: 'JA0302', label: '임산부' },
+              { value: 'JA0303', label: '출산·입양' }
+            ]
+          },
+          {
+            title: '📚 학생', options: [
+              { value: 'JA0317', label: '초등학생' },
+              { value: 'JA0318', label: '중학생' },
+              { value: 'JA0319', label: '고등학생' },
+              { value: 'JA0320', label: '대학생·대학원생' }
+            ]
+          },
+          {
+            title: '💼 일·직업', options: [
+              { value: 'JA0326', label: '직장인' },
+              { value: 'JA0327', label: '구직자·실업자' },
+              { value: 'JA0313', label: '농업인' },
+              { value: 'JA0314', label: '어업인' },
+              { value: 'JA0315', label: '축산업인' },
+              { value: 'JA0316', label: '임업인' }
+            ]
+          },
+          {
+            title: '💙 특별한 상황', options: [
+              { value: 'JA0328', label: '장애인' },
+              { value: 'JA0329', label: '국가보훈대상자' },
+              { value: 'JA0330', label: '질병·질환자' }
+            ]
+          }
+        ]
+      }
+    ],
+    biz: [
+      {
+        key: 'bizStatus', kind: 'multi', cond: 'bizStatus', basic: true, icon: '📌', title: '사업 상황',
+        options: [
+          { value: 'JA1101', label: '예비 창업자' },
+          { value: 'JA1102', label: '영업 중' },
+          { value: 'JA1103', label: '생계 곤란·폐업 예정' }
+        ]
+      },
+      {
+        key: 'bizType', kind: 'multi', cond: 'bizType', basic: true, icon: '🏷️', title: '업종',
+        options: [
+          { value: 'JA1201', label: '음식점업' },
+          { value: 'JA1202', label: '제조업' },
+          { value: 'JA1299', label: '기타 업종' }
+        ]
+      }
+    ],
+    org: [
+      {
+        key: 'orgType', kind: 'multi', cond: 'orgType', basic: true, icon: '🏢', title: '기관 유형',
+        options: [
+          { value: 'JA2101', label: '중소기업' },
+          { value: 'JA2102', label: '사회복지시설' },
+          { value: 'JA2103', label: '기관·단체' }
+        ]
+      },
+      {
+        key: 'orgIndustry', kind: 'multi', cond: 'orgIndustry', basic: true, icon: '🏭', title: '업종',
+        options: [
+          { value: 'JA2201', label: '제조업' },
+          { value: 'JA2202', label: '농업·임업·어업' },
+          { value: 'JA2203', label: '정보통신업' },
+          { value: 'JA2299', label: '기타 업종' }
+        ]
+      }
+    ]
+  };
+
+  /* ───────── 기준 중위소득 (매년 8월 보건복지부 고시 → 해마다 금액만 바꾸면 됨) ───────── */
+
+  GS24.MEDIAN_INCOME = {
+    year: 2026,
+    notice: '보건복지부 고시 제2025-135호',
+    monthly: [2564238, 4199292, 5359036, 6494738, 7556719, 8555952] // 1인 ~ 6인
+  };
+
+  // 7인 이상: 1명 늘 때마다 (6인 - 5인) 차이를 더함
+  GS24.medianIncome = function (people) {
+    var m = GS24.MEDIAN_INCOME.monthly;
+    if (people <= 6) return m[Math.max(1, people) - 1];
+    return m[5] + (m[5] - m[4]) * (people - 6);
+  };
+
+  // 중위소득 % → 검색조건 소득 구간 코드
+  GS24.incomeCodeOf = function (percent) {
+    if (percent <= 50) return 'JA0201';
+    if (percent <= 75) return 'JA0202';
+    if (percent <= 100) return 'JA0203';
+    if (percent <= 200) return 'JA0204';
+    return 'JA0205';
+  };
+
+  GS24.optionsOf = function (group) {
+    if (group.options) return group.options;
+    return group.subgroups.reduce(function (all, sg) { return all.concat(sg.options); }, []);
+  };
+
+  /* ───────── 조건 비교 ───────── */
+
+  /*
+   * 목록 데이터 한 건의 모양
+   * { id, name, summary, topic, org, region, sigungu?, userType, supportType,
+   *   deadline, views, updated, codes?: ['JA0102', ...], age?: [최소, 최대] }
+   * (codes/age 가 없으면 누구나 대상)
+   *
+   * sel(사용자가 고른 조건)
+   * { target, region, keyword, topics: [], picks: { age: 'youth', life: ['JA0302'], ... } }
+   */
+  GS24.match = function (svc, sel) {
+    var score = 0;
+
+    var target = GS24.TARGETS.filter(function (t) { return t.id === sel.target; })[0];
+    if (target && svc.userType) {
+      var okTarget = target.keywords.some(function (k) { return svc.userType.indexOf(k) > -1; });
+      if (!okTarget) return null;
+    }
+
+    if (sel.region && svc.region !== '전국' && svc.region !== sel.region) return null;
+    if (sel.topics.length && sel.topics.indexOf(svc.topic) < 0) return null;
+
+    if (sel.keyword) {
+      var hay = (svc.name + ' ' + svc.summary + ' ' + svc.org).replace(/\s/g, '').toLowerCase();
+      if (hay.indexOf(sel.keyword.replace(/\s/g, '').toLowerCase()) < 0) return null;
+    }
+
+    var groups = GS24.FILTERS[sel.target] || [];
+    for (var i = 0; i < groups.length; i++) {
+      var g = groups[i];
+      var pick = sel.picks[g.key];
+      if (!pick || (Array.isArray(pick) && !pick.length)) continue;
+
+      if (g.kind === 'age') {
+        if (!svc.age) continue;
+        var opt = g.options.filter(function (o) { return o.value === pick; })[0];
+        if (!opt) continue;
+        if (svc.age[1] < opt.min || svc.age[0] > opt.max) return null;
+        score += 1;
+        continue;
+      }
+
+      // 이 지원금이 해당 묶음에서 대상을 제한하는지 확인
+      var allCodes = svc.codes || [];
+      if (g.openCode && allCodes.indexOf(g.openCode) > -1) continue;
+      var groupCodes = GS24.optionsOf(g).map(function (o) { return o.value; });
+      var svcCodes = allCodes.filter(function (c) { return groupCodes.indexOf(c) > -1; });
+      if (!svcCodes.length) continue;                     // 제한 없음 → 누구나
+      if (g.key === 'gender' && svcCodes.length === groupCodes.length) continue; // 남녀 모두
+
+      var picks = Array.isArray(pick) ? pick : [pick];
+      var hit = picks.some(function (p) { return svcCodes.indexOf(p) > -1; });
+      if (!hit) return null;                              // 다른 대상 전용 → 제외
+      score += 2;                                         // 딱 맞는 대상 → 위로
+    }
+    return { score: score };
+  };
+
+  /* ───────── 도우미 ───────── */
+
+  GS24.esc = function (s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  };
+
+  GS24.multiline = function (s) {
+    return GS24.esc(String(s == null ? '' : s).trim()).replace(/\r?\n/g, '<br>');
+  };
+
+  GS24.safeUrl = function (u) {
+    return /^https?:\/\//i.test(String(u || '').trim()) ? String(u).trim() : '';
+  };
+
+  GS24.detailUrl = function (id) {
+    return GS24.config.detailPageUrl + '?id=' + encodeURIComponent(id);
+  };
+
+  // 신청기한 글자에서 마지막 날짜를 찾아 D-day 계산 (상시신청 등은 날짜 없음)
+  GS24.deadlineInfo = function (text) {
+    text = String(text || '').trim();
+    var re = /(20\d{2})\s*[.\-/년]\s*(\d{1,2})\s*[.\-/월]\s*(\d{1,2})/g;
+    var m, last = null;
+    while ((m = re.exec(text))) last = m;
+    if (!last) return { text: text || '기한 확인 필요', expired: false, urgent: false };
+
+    var end = new Date(+last[1], +last[2] - 1, +last[3]);
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+    var days = Math.round((end - today) / 86400000);
+    if (days < 0) return { text: '마감', expired: true, urgent: false, days: days };
+    return {
+      text: days === 0 ? '오늘 마감' : 'D-' + days,
+      expired: false, urgent: days <= 7, days: days
+    };
+  };
+
+  /* ───────── 애드센스 광고 ───────── */
+
+  function loadAdScript() {
+    var ads = GS24.config.ads;
+    if (document.querySelector('script[src*="adsbygoogle.js"]')) return;
+    var s = document.createElement('script');
+    s.async = true;
+    s.crossOrigin = 'anonymous';
+    s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(ads.client);
+    document.head.appendChild(s);
+  }
+
+  /*
+   * box 안에 광고 1개 넣기
+   *  opts.label : 미리보기 상자에 보일 이름
+   *  opts.side  : true면 160x600 세로 광고
+   */
+  GS24.renderAd = function (box, slot, opts) {
+    var ads = GS24.config.ads;
+    opts = opts || {};
+    if (!box || !slot || !ads.client) return;
+
+    if (ads.preview) {
+      box.innerHTML = '<div class="gs24-ad-preview' + (opts.side ? ' side' : '') + '">📢 광고 영역<br><small>' +
+        GS24.esc(opts.label || '') + '<br>(' + GS24.esc(slot) + ')</small></div>';
+      return;
+    }
+
+    loadAdScript();
+    var ins = document.createElement('ins');
+    ins.className = 'adsbygoogle';
+    ins.setAttribute('data-ad-client', ads.client);
+    ins.setAttribute('data-ad-slot', slot);
+    if (opts.side) {
+      ins.style.cssText = 'display:inline-block;width:160px;height:600px';
+    } else {
+      ins.style.display = 'block';
+      ins.setAttribute('data-ad-format', 'auto');
+      ins.setAttribute('data-full-width-responsive', 'true');
+    }
+    box.appendChild(ins);
+    try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) { /* 광고 차단 등 */ }
+  };
+
+  // 양쪽 사이드 광고 (넓은 화면에서만, 페이지에 한 번만)
+  GS24.renderSideAds = function () {
+    var ads = GS24.config.ads;
+    if (document.querySelector('.gs24-side-ad')) return;
+    if (window.innerWidth < ads.sideMinWidth) return; // 좁은 화면에서는 넣지 않음 (광고 크기 오류 방지)
+    [['left', ads.sideLeft, '왼쪽 사이드 광고'], ['right', ads.sideRight, '오른쪽 사이드 광고']].forEach(function (s) {
+      if (!s[1]) return;
+      var box = document.createElement('div');
+      box.className = 'gs24-side-ad ' + s[0];
+      document.body.appendChild(box);
+      GS24.renderAd(box, s[1], { side: true, label: s[2] });
+    });
+  };
+
+  /* ───────── 데이터 불러오기 ───────── */
+
+  var listCache = null;
+
+  GS24.loadList = function () {
+    if (listCache) return listCache;
+    if (window.GS24_SAMPLE) {
+      listCache = Promise.resolve(window.GS24_SAMPLE.list);
+    } else {
+      listCache = fetch(GS24.config.dataBaseUrl + 'list.json').then(function (r) {
+        if (!r.ok) throw new Error('목록을 불러오지 못했어요');
+        return r.json();
+      });
+    }
+    return listCache;
+  };
+
+  // 데이터 갱신 정보 { updatedAt, count }
+  GS24.loadMeta = function () {
+    if (window.GS24_SAMPLE) return Promise.resolve(null);
+    return fetch(GS24.config.dataBaseUrl + 'meta.json').then(function (r) { return r.ok ? r.json() : null; });
+  };
+
+  GS24.loadDetail = function (id) {
+    if (window.GS24_SAMPLE) return Promise.resolve(window.GS24_SAMPLE.details[id] || null);
+    return fetch(GS24.config.dataBaseUrl + 'detail/' + encodeURIComponent(id) + '.json')
+      .then(function (r) { return r.ok ? r.json() : null; });
+  };
+})();
+
+/* 정부지원금24 - 검색 화면 (<div id="gs24-finder"></div> 안에 그림) */
+(function () {
+  'use strict';
+  var GS24 = window.GS24;
+  var esc = GS24.esc;
+  var STORE_KEY = 'gs24-finder-state';
+
+  var root;
+  var state = {
+    target: 'person', region: '', keyword: '', topics: [], picks: {},
+    sort: 'deadline', page: 1
+  };
+  var SORTS = [['deadline', '마감임박순'], ['popular', '인기순'], ['latest', '최신순']];
+  var results = [];
+
+  function saveState() {
+    try { sessionStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) { /* 저장 안 돼도 동작 */ }
+  }
+
+  function loadState() {
+    try {
+      var saved = JSON.parse(sessionStorage.getItem(STORE_KEY) || 'null');
+      if (saved && GS24.FILTERS[saved.target]) state = Object.assign(state, saved);
+      if (!SORTS.some(function (s) { return s[0] === state.sort; })) state.sort = 'deadline';
+    } catch (e) { /* 무시 */ }
+  }
+
+  /* ───────── 조건 영역 그리기 ───────── */
+
+  function chip(opts) {
+    // onClass: 선택됐을 때만 붙는 색 (관심 분야 = 카드 색과 같게)
+    return '<button type="button" class="gs24-chip' + (opts.on ? ' on' + (opts.onClass ? ' ' + opts.onClass : '') : '') + '"' +
+      ' data-act="' + opts.act + '" data-key="' + esc(opts.key || '') + '" data-value="' + esc(opts.value) + '">' +
+      esc(opts.label) + (opts.sub ? '<small>' + esc(opts.sub) + '</small>' : '') + '</button>';
+  }
+
+  function groupHtml(g) {
+    var pick = state.picks[g.key];
+    var single = g.kind !== 'multi';
+    function isOn(v) { return single ? pick === v : (pick || []).indexOf(v) > -1; }
+    function chips(options) {
+      return '<div class="gs24-chips">' + options.map(function (o) {
+        return chip({ act: 'pick', key: g.key, value: o.value, label: o.label, sub: o.sub, single: single, on: isOn(o.value) });
+      }).join('') + '</div>';
+    }
+
+    var body = g.subgroups
+      ? g.subgroups.map(function (sg) { return '<div class="gs24-subtitle">' + esc(sg.title) + '</div>' + chips(sg.options); }).join('')
+      : chips(g.options);
+
+    return '<div class="gs24-group"><h3>' + g.icon + ' ' + esc(g.title) + '</h3>' +
+      '<p class="gs24-hint">' + esc(g.hint || (single ? '선택하지 않으면 전체' : '여러 개 선택할 수 있어요')) + '</p>' +
+      body + '</div>';
+  }
+
+  function renderFilters() {
+    var groups = GS24.FILTERS[state.target];
+    var basic = groups.filter(function (g) { return g.basic; });
+    var more = groups.filter(function (g) { return !g.basic; });
+    var moreCount = more.reduce(function (n, g) {
+      var p = state.picks[g.key];
+      return n + (Array.isArray(p) ? p.length : (p ? 1 : 0));
+    }, 0);
+
+    var html =
+      '<div class="gs24-group"><h3>🙌 누구를 위한 지원금을 찾나요?</h3><div class="gs24-chips gs24-chips-3">' +
+      GS24.TARGETS.map(function (t) {
+        return '<button type="button" class="gs24-chip gs24-target' + (state.target === t.id ? ' on' : '') +
+          '" data-act="target" data-value="' + t.id + '">' + t.icon + ' ' + esc(t.label) + '</button>';
+      }).join('') + '</div></div>' +
+
+      '<div class="gs24-group"><h3>🔎 지원금 이름으로 찾기</h3>' +
+      '<input class="gs24-input" type="search" data-act="keyword" placeholder="예) 월세, 출산, 취업" value="' + esc(state.keyword) + '"></div>' +
+
+      '<div class="gs24-group"><h3>📍 지역</h3><p class="gs24-hint">지역을 고르면 전국 지원금 + 우리 지역 지원금이 나와요</p><div class="gs24-chips gs24-chips-4">' +
+      chip({ act: 'region', value: '', label: '전국', single: true, on: !state.region }) +
+      GS24.REGIONS.map(function (r) {
+        return chip({ act: 'region', value: r.value, label: r.label, single: true, on: state.region === r.value });
+      }).join('') + '</div></div>' +
+
+      '<div class="gs24-group"><h3>📂 관심 분야</h3><p class="gs24-hint">여러 개 선택할 수 있어요</p><div class="gs24-chips">' +
+      GS24.TOPICS.map(function (t) {
+        return chip({ act: 'topic', value: t.value, label: t.icon + ' ' + t.value, on: state.topics.indexOf(t.value) > -1, onClass: t.color });
+      }).join('') + '</div></div>' +
+
+      basic.map(groupHtml).join('');
+
+    if (more.length) {
+      html += '<details class="gs24-more"' + (moreCount ? ' open' : '') + '>' +
+        '<summary>➕ 조건 더 보기 (소득·가구·특성)' + (moreCount ? ' · ' + moreCount + '개 선택됨' : '') + '</summary>' +
+        more.map(groupHtml).join('') + '</details>';
+    }
+
+    html += '<div class="gs24-actions">' +
+      '<button type="button" class="gs24-btn-main" data-act="search">🔍 지원금 검색하기</button>' +
+      '<button type="button" class="gs24-btn-sub" data-act="reset">초기화</button></div>';
+
+    root.querySelector('.gs24-filters').innerHTML = html;
+  }
+
+  /* ───────── 결과 영역 그리기 ───────── */
+
+  function cardHtml(svc) {
+    var dl = GS24.deadlineInfo(svc.deadline);
+    var topic = GS24.topicInfo(svc.topic);
+    // 긴 기한 글은 한 줄로 줄이고, 자세한 기한은 상세 화면에서 보여줌
+    var dlText = dl.days != null ? dl.text : dl.text.replace(/\s+/g, ' ');
+    return '<a class="support-card ' + topic.color + '" href="' + esc(GS24.detailUrl(svc.id)) + '" title="' + esc(svc.summary) + '">' +
+      '<div class="support-meta">' + topic.icon + ' ' + esc(svc.topic) + ' · ' + esc(svc.supportType || '지원') + '</div>' +
+      '<div class="support-title">' + esc(svc.name) + '</div>' +
+      '<div class="support-org">' + (dl.urgent ? '<span class="support-dday">' + esc(dl.text) + '</span>' : '') +
+      esc(svc.org) + (dl.urgent ? '' : ' · ' + esc(dlText)) + '</div>' +
+      // 버튼 문구: 최대 금액·비율·대표 혜택 (데이터 만들 때 지원내용에서 뽑음)
+      '<div class="support-icon">' + esc(svc.benefit || '확인하기') + '</div>' +
+      '</a>';
+  }
+
+  function sortResults() {
+    var by = {
+      // 날짜가 적힌 지원금을 마감 가까운 순으로 먼저, 날짜 없는(상시 등) 지원금은 그 뒤에 인기순
+      deadline: function (a, b) {
+        if (a.days == null && b.days == null) return b.svc.views - a.svc.views;
+        if (a.days == null) return 1;
+        if (b.days == null) return -1;
+        return a.days - b.days || b.svc.views - a.svc.views;
+      },
+      popular: function (a, b) { return b.svc.views - a.svc.views; },
+      latest: function (a, b) { return String(b.svc.updated).localeCompare(String(a.svc.updated)); }
+    };
+    results.sort(by[state.sort] || by.deadline);
+  }
+
+  function renderResults() {
+    var box = root.querySelector('.gs24-results');
+    var per = GS24.config.perPage;
+    var totalPages = Math.max(1, Math.ceil(results.length / per));
+    if (state.page > totalPages) state.page = totalPages;
+    var pageItems = results.slice((state.page - 1) * per, state.page * per);
+
+    var sorts = SORTS;
+    var html =
+      '<h2 class="section-title">📋 검색 결과 <span class="gs24-count">' + results.length.toLocaleString() + '개</span></h2>' +
+      '<div class="gs24-sort">' + sorts.map(function (s) {
+        return '<button type="button" data-act="sort" data-value="' + s[0] + '" class="' + (state.sort === s[0] ? 'on' : '') + '">' + s[1] + '</button>';
+      }).join('') + '</div>' +
+      '<div class="support-grid">' + (pageItems.length
+        ? pageItems.map(function (r) { return cardHtml(r.svc); }).join('')
+        : '<div class="gs24-empty"><b>😔</b>선택한 조건에 맞는 지원금이 없어요.<br><small>조건을 조금 줄여서 다시 검색해 보세요.</small></div>') +
+      '</div>';
+
+    if (totalPages > 1) {
+      var start = Math.max(1, Math.min(state.page - 2, totalPages - 4));
+      var end = Math.min(totalPages, start + 4);
+      html += '<div class="gs24-pages">' +
+        '<button type="button" data-act="page" data-value="' + (state.page - 1) + '"' + (state.page === 1 ? ' disabled' : '') + '>← 이전</button>';
+      for (var p = start; p <= end; p++) {
+        html += '<button type="button" data-act="page" data-value="' + p + '" class="' + (p === state.page ? 'on' : '') + '">' + p + '</button>';
+      }
+      html += '<button type="button" data-act="page" data-value="' + (state.page + 1) + '"' + (state.page === totalPages ? ' disabled' : '') + '>다음 →</button></div>';
+    }
+    box.innerHTML = html;
+  }
+
+  function search(scroll) {
+    var box = root.querySelector('.gs24-results');
+    box.innerHTML = '<div class="gs24-empty"><span class="gs24-spinner"></span><br>지원금을 찾고 있어요...</div>';
+
+    GS24.loadList().then(function (list) {
+      var total = root.querySelector('.gs24-total');
+      if (total) total.textContent = list.length.toLocaleString();
+      results = [];
+      list.forEach(function (svc) {
+        if (GS24.deadlineInfo(svc.deadline).expired) return;
+        var m = GS24.match(svc, state);
+        if (m) results.push({ svc: svc, score: m.score, days: GS24.deadlineInfo(svc.deadline).days });
+      });
+      sortResults();
+      renderResults();
+      saveState();
+      if (scroll) box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }).catch(function () {
+      box.innerHTML = '<div class="gs24-empty"><b>⚠️</b>지원금 정보를 불러오지 못했어요.<br><small>잠시 후 다시 시도해 주세요.</small></div>';
+    });
+  }
+
+  /* ───────── 중위소득 계산기 ───────── */
+
+  var calc = { people: 1, income: '' };
+
+  function won(n) { return Math.round(n).toLocaleString() + '원'; }
+
+  function renderCalcPeople() {
+    var html = '';
+    for (var n = 1; n <= 8; n++) {
+      html += chip({ act: 'calc-people', value: String(n), label: n + '인' + (n === 8 ? ' 이상' : ''), on: calc.people === n });
+    }
+    root.querySelector('.gs24-calc-people').innerHTML = html;
+  }
+
+  function renderCalcResult() {
+    var box = root.querySelector('.gs24-calc-result');
+    var value = parseFloat(String(calc.income).replace(/,/g, ''));
+    if (!(value > 0)) {
+      box.innerHTML = '<div class="gs24-calc-box gs24-calc-empty">👆 가구원 수를 고르고 한 달 소득을 입력하면<br>기준 중위소득의 몇 %인지 바로 알려드려요.</div>';
+      return;
+    }
+
+    // 원 단위로 입력한 경우(10만 이상)는 만원으로 바꿔서 계산
+    var note = '';
+    if (value >= 100000) {
+      note = '<p class="gs24-hint">※ 원 단위로 입력하신 것 같아 ' + Math.round(value / 10000).toLocaleString() + '만원으로 계산했어요.</p>';
+      value = value / 10000;
+    }
+
+    var median = GS24.medianIncome(calc.people);
+    var percent = Math.round((value * 10000 / median) * 1000) / 10;
+    var code = GS24.incomeCodeOf(percent);
+    var incomeGroup = GS24.FILTERS.person.filter(function (g) { return g.key === 'income'; })[0];
+    var option = incomeGroup.options.filter(function (o) { return o.value === code; })[0];
+
+    box.innerHTML =
+      '<div class="gs24-calc-box">' +
+      '<div class="gs24-calc-label">우리 집(' + (calc.people >= 8 ? '8인 이상' : calc.people + '인') + ' 가구) 소득은 기준 중위소득의</div>' +
+      '<div class="gs24-calc-percent">약 <b>' + percent.toLocaleString() + '%</b></div>' +
+      '<div class="gs24-calc-bar"><span style="width:' + Math.min(percent / 2, 100) + '%"></span></div>' +
+      '<div class="gs24-calc-ticks"><span>0</span><span>50%</span><span>100%</span><span>150%</span><span>200%+</span></div>' +
+      '<div class="gs24-calc-band">검색조건 소득 구간: <b>중위소득 ' + esc(option.label) + '</b>' + (option.sub ? ' (' + esc(option.sub) + ')' : '') + '</div>' +
+      '<div class="gs24-calc-sub">' + (calc.people >= 8 ? '8인' : calc.people + '인') + ' 가구 기준 중위소득 ' + won(median) + ' · 입력 소득 ' + won(value * 10000) + '</div>' +
+      note +
+      '<div class="gs24-actions"><button type="button" class="gs24-btn-main" data-act="calc-apply" data-value="' + code + '">🔍 이 소득 구간으로 지원금 찾기</button></div>' +
+      '</div>';
+  }
+
+  function calcHtml() {
+    var mi = GS24.MEDIAN_INCOME;
+    var rows = '';
+    for (var n = 1; n <= 7; n++) {
+      var m = GS24.medianIncome(n);
+      rows += '<tr><td>' + n + '인</td><td>' + won(m) + '</td><td>' + won(m * 0.5) + '</td><td>' + won(m * 0.75) + '</td></tr>';
+    }
+    return '<h2 class="section-title" id="gs24-income">🧮 중위소득 계산기</h2>' +
+      '<div class="gs24-panel gs24-calc">' +
+      '<p class="gs24-calc-intro">지원금 조건에 자주 나오는 <b>"기준 중위소득 ○○% 이하"</b>, 우리 집은 몇 %일까요?</p>' +
+      '<div class="gs24-group"><h3>👨‍👩‍👧 가구원 수</h3><p class="gs24-hint">주민등록상 함께 사는 가족 수</p>' +
+      '<div class="gs24-chips gs24-chips-4 gs24-calc-people"></div></div>' +
+      '<div class="gs24-group"><h3>💵 한 달 가구 소득 (세전)</h3><p class="gs24-hint">가족 모두의 월 소득을 더한 금액을 만원 단위로 입력하세요</p>' +
+      '<div class="gs24-money"><input class="gs24-input" type="number" inputmode="numeric" min="0" data-act="calc-income" placeholder="예) 250"><span>만원</span></div></div>' +
+      '<div class="gs24-calc-result"></div>' +
+      '<details class="gs24-more gs24-calc-table"><summary>📊 ' + mi.year + '년 기준 중위소득표 보기</summary>' +
+      '<table><thead><tr><th>가구원</th><th>100%</th><th>50%</th><th>75%</th></tr></thead><tbody>' + rows + '</tbody></table>' +
+      '<p class="gs24-hint">월 기준 · ' + esc(mi.notice) + ' · 7인 이상은 1인 늘 때마다 ' + won(mi.monthly[5] - mi.monthly[4]) + '씩 더해요</p>' +
+      '</details>' +
+      '<p class="gs24-hint">※ 실제 지원 대상은 재산·자동차 등을 소득으로 환산한 <b>소득인정액</b>으로 판단하는 경우가 많아요. 참고용으로 활용하세요.</p>' +
+      '</div>';
+  }
+
+  /* ───────── 클릭 처리 ───────── */
+
+  function onClick(e) {
+    var el = e.target.closest('[data-act]');
+    if (!el || !root.contains(el) || el.tagName === 'INPUT') return;
+    var act = el.getAttribute('data-act');
+    var value = el.getAttribute('data-value');
+
+    if (act === 'target') {
+      if (state.target !== value) { state.target = value; state.picks = {}; }
+      renderFilters();
+    } else if (act === 'region') {
+      state.region = value;
+      renderFilters();
+    } else if (act === 'topic') {
+      toggle(state.topics, value);
+      renderFilters();
+    } else if (act === 'pick') {
+      var key = el.getAttribute('data-key');
+      var group = GS24.FILTERS[state.target].filter(function (g) { return g.key === key; })[0];
+      if (group.kind === 'multi') {
+        state.picks[key] = state.picks[key] || [];
+        toggle(state.picks[key], value);
+      } else {
+        state.picks[key] = state.picks[key] === value ? '' : value; // 한 번 더 누르면 해제
+      }
+      renderFilters();
+    } else if (act === 'search') {
+      state.page = 1;
+      search(true);
+    } else if (act === 'reset') {
+      state = { target: state.target, region: '', keyword: '', topics: [], picks: {}, sort: 'deadline', page: 1 };
+      renderFilters();
+      search(false);
+    } else if (act === 'sort') {
+      state.sort = value;
+      state.page = 1;
+      sortResults();
+      renderResults();
+      saveState();
+    } else if (act === 'page') {
+      state.page = +value;
+      renderResults();
+      saveState();
+      root.querySelector('.gs24-results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else if (act === 'calc-people') {
+      calc.people = +value;
+      renderCalcPeople();
+      renderCalcResult();
+    } else if (act === 'calc-apply') {
+      // 계산 결과를 검색조건(개인·가구 > 소득)에 넣고 바로 검색
+      if (state.target !== 'person') { state.target = 'person'; state.picks = {}; }
+      state.picks.income = value;
+      state.page = 1;
+      renderFilters();
+      search(true);
+    }
+  }
+
+  function toggle(arr, v) {
+    var i = arr.indexOf(v);
+    if (i > -1) arr.splice(i, 1); else arr.push(v);
+  }
+
+  /* ───────── 시작 ───────── */
+
+  function koreanDate(d) {
+    return d.getFullYear() + '년 ' + (d.getMonth() + 1) + '월 ' + d.getDate() + '일';
+  }
+
+  function init() {
+    root = document.getElementById('gs24-finder');
+    if (!root) return;
+    loadState();
+
+    root.className = 'gs24';
+    root.innerHTML =
+      '<div class="content-card">' +
+      '<h2 class="card-title">💰 정부지원금 찾기 <small>(공공데이터포털 최신 Data)</small></h2>' +
+      '<p class="card-text">내 상황을 선택하면 받을 수 있는 정부지원금을 찾아드려요.<br>' +
+      '전국 지원금 <b class="gs24-total">10,000</b>여 개 · 📅 <span class="gs24-date">' + koreanDate(new Date()) + '</span> 기준</p>' +
+      '</div>' +
+      '<div class="gs24-ad-slot" data-ad="top"></div>' +
+      '<h2 class="section-title" id="gs24-search">🔍 조건 선택</h2>' +
+      '<div class="gs24-panel gs24-filters"></div>' +
+      '<div class="gs24-ad-slot" data-ad="middle"></div>' +
+      '<div class="gs24-results" id="gs24-results"></div>' +
+      '<div class="gs24-ad-slot" data-ad="bottom"></div>' +
+      calcHtml() +
+      '<div class="gs24-source" id="gs24-source">📡 <b>데이터 출처</b> 행정안전부 「대한민국 공공서비스(혜택) 정보」 (공공데이터포털)<br>' +
+      '정확한 지원 내용과 자격은 반드시 담당기관에 확인하세요.</div>';
+
+    root.addEventListener('click', onClick);
+    root.addEventListener('input', function (e) {
+      var act = e.target.getAttribute('data-act');
+      if (act === 'keyword') state.keyword = e.target.value;
+      if (act === 'calc-income') { calc.income = e.target.value; renderCalcResult(); }
+    });
+    root.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' && e.target.getAttribute('data-act') === 'keyword') { state.page = 1; search(true); }
+    });
+
+    // 기준 날짜 = 데이터를 마지막으로 받은 날 (못 읽으면 오늘 날짜 유지)
+    GS24.loadMeta().then(function (meta) {
+      var el = root.querySelector('.gs24-date');
+      if (meta && meta.updatedAt && el) el.textContent = koreanDate(new Date(meta.updatedAt));
+    }).catch(function () { /* 오늘 날짜 유지 */ });
+
+    // 광고: 조건 선택 위 / 검색 결과 위 / 중위소득 계산기 위 + 양쪽 사이드
+    var ads = GS24.config.ads;
+    GS24.renderAd(root.querySelector('[data-ad="top"]'), ads.top, { label: '블로그 상단 해더 광고' });
+    GS24.renderAd(root.querySelector('[data-ad="middle"]'), ads.middle, { label: '블로그 중간 광고' });
+    GS24.renderAd(root.querySelector('[data-ad="bottom"]'), ads.bottom, { label: '블로그 하단 광고' });
+    GS24.renderSideAds();
+
+    renderFilters();
+    renderCalcPeople();
+    renderCalcResult();
+    search(false);
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+
+/* 정부지원금24 - 상세 화면 (<div id="gs24-detail"></div> 안에 그림, 주소의 ?id= 값 사용) */
+(function () {
+  'use strict';
+  var GS24 = window.GS24;
+  var esc = GS24.esc;
+
+  // [데이터 칸, 제목, 카드 모양]
+  var SECTIONS = [
+    ['purpose', '🎯 이런 지원금이에요', 'farm-blue-card'],
+    ['target', '👥 지원 대상', 'farm-white-card'],
+    ['criteria', '✅ 선정 기준', 'farm-white-card'],
+    ['content', '🎁 지원 내용', 'farm-blue-card'],
+    ['howToApply', '📝 신청 방법', 'farm-white-card'],
+    ['documents', '📄 구비 서류', 'farm-white-card'],
+    ['laws', '⚖️ 관련 법령', 'farm-white-card']
+  ];
+
+  function hostOf(url) {
+    try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return ''; }
+  }
+
+  function bottomButton() {
+    return '<button type="button" class="bottom-button" data-act="list">🔍 나에게 맞는 지원금 더 찾기</button>';
+  }
+
+  function render(root, d) {
+    var dl = GS24.deadlineInfo(d.deadline);
+    var topic = GS24.topicInfo(d.topic);
+    var onlineUrl = GS24.safeUrl(d.onlineUrl);
+    var gov24Url = GS24.safeUrl(d.gov24Url);
+
+    var infoRows = [
+      ['🏛️ 접수 기관', d.receiver],
+      ['☎️ 문의처', d.contact],
+      ['🔄 정보 수정일', d.updated]
+    ].filter(function (row) { return row[1]; });
+
+    var html =
+      '<div class="farm-gray-card-center">' +
+      '<div class="gs24-tags">' +
+      (d.topic ? '<span class="gs24-tag">' + topic.icon + ' ' + esc(d.topic) + '</span>' : '') +
+      (d.supportType ? '<span class="gs24-tag">🎁 ' + esc(d.supportType) + '</span>' : '') +
+      (dl.expired ? '<span class="gs24-tag red">마감</span>' : '') +
+      '</div>' +
+      '<h2>' + esc(d.name) + '</h2>' +
+      '<p>' + esc([d.org, d.dept].filter(Boolean).join(' · ')) + '</p>' +
+      '</div>' +
+
+      '<div class="farm-gray-card">' +
+      '<h3>📅 신청 기한</h3>' +
+      '<p class="apply-date-text">' + esc(d.deadline || '기한 확인 필요') + '</p>' +
+      (dl.days != null ? '<p class="apply-text">' + esc(dl.text) + '</p>' : '') +
+      (infoRows.length ? '<div class="highlight-box">' + infoRows.map(function (row) {
+        return '<div class="requirement-item"><div class="requirement-title">' + row[0] + '</div>' +
+          '<div class="requirement-desc">' + esc(row[1]) + '</div></div>';
+      }).join('') + '</div>' : '') +
+      (onlineUrl ? '<div class="farm-blue-button"><a href="' + esc(onlineUrl) + '" target="_blank" rel="noopener">✍️ 온라인 신청하기</a></div>' : '') +
+      (gov24Url ? '<div class="farm-gray-button"><a href="' + esc(gov24Url) + '" target="_blank" rel="noopener">정부24에서 자세히 보기(' + esc(hostOf(gov24Url) || 'gov.kr') + ')</a></div>' : '') +
+      '<button type="button" class="gs24-pdf-button" data-act="pdf">📄 PDF로 저장하기</button>' +
+      // 인쇄/PDF에서만 보이는 링크 주소
+      '<div class="gs24-print-only gs24-print-links">' +
+      (onlineUrl ? '✍️ 온라인 신청: ' + esc(onlineUrl) + '<br>' : '') +
+      (gov24Url ? '🔗 정부24: ' + esc(gov24Url) : '') +
+      '</div>' +
+      '</div>' +
+
+      '<div class="gs24-ad-slot"></div>';
+
+    SECTIONS.forEach(function (s) {
+      var text = d[s[0]] && String(d[s[0]]).trim();
+      var extra = s[0] === 'documents' && d.officialDocs
+        ? '<div class="documents"><div class="documents-title">🗂️ 담당 공무원이 확인하는 서류</div>' +
+          '<div class="gs24-text">' + GS24.multiline(d.officialDocs) + '</div></div>'
+        : '';
+      if (!text && !extra) return;
+      html += '<div class="' + s[2] + '"><h2>' + s[1] + '</h2>' +
+        (text ? '<div class="gs24-text">' + GS24.multiline(text) + '</div>' : '') + extra + '</div>';
+    });
+
+    html += '<div class="gs24-related"></div>' +
+      '<p class="gs24-notice">※ 정확한 지원 내용과 자격은 반드시 담당기관에 확인하세요.<br>' +
+      '📡 출처: 행정안전부 「대한민국 공공서비스(혜택) 정보」 (공공데이터포털)</p>';
+
+    root.innerHTML = html;
+    document.title = d.name + ' | 정부지원금 찾기';
+    renderRelated(root, d);
+  }
+
+  // 같은 분야 인기 지원금 5개 (우리 지역 또는 전국)
+  function renderRelated(root, d) {
+    var box = root.querySelector('.gs24-related');
+    var fallback = '<div class="benefit-card">' + bottomButton() + '</div>';
+
+    GS24.loadList().then(function (list) {
+      var self = list.filter(function (s) { return s.id === d.id; })[0];
+      var region = self ? self.region : '전국';
+      var related = list
+        .filter(function (s) {
+          return s.id !== d.id && s.topic === d.topic && (s.region === '전국' || s.region === region) &&
+            !GS24.deadlineInfo(s.deadline).expired;
+        })
+        .sort(function (a, b) { return b.views - a.views; })
+        .slice(0, 5);
+
+      if (!related.length) { box.innerHTML = fallback; return; }
+      box.innerHTML =
+        '<div class="benefit-card">' +
+        '<h2 class="benefit-title"><span class="icon">🔥</span>함께 보면 좋은 지원금</h2>' +
+        '<div class="benefit-list">' + related.map(function (s) {
+          return '<a class="benefit-item" href="' + esc(GS24.detailUrl(s.id)) + '">' +
+            '<span class="benefit-text">' + esc(s.name) + '<small>' + esc(s.org) + '</small></span>' +
+            '<span class="benefit-arrow">›</span></a>';
+        }).join('') + '</div>' +
+        bottomButton() +
+        '</div>';
+    }).catch(function () {
+      box.innerHTML = fallback;
+    });
+  }
+
+  /*
+   * PDF 저장: 상세 내용만 복사해 body 바로 아래에 두고 브라우저 인쇄 창을 열어요.
+   * (인쇄 창에서 '대상: PDF로 저장' 선택. 블로그 테마의 헤더·광고 등은 인쇄되지 않음)
+   */
+  function savePdf(root) {
+    var title = root.querySelector('.farm-gray-card-center h2');
+    if (!title) return;
+
+    Array.prototype.forEach.call(document.querySelectorAll('.gs24-print-root'), function (el) { el.remove(); });
+    var clone = root.cloneNode(true);
+    clone.removeAttribute('id');
+    clone.classList.add('gs24-print-root');
+
+    var now = new Date();
+    var head = document.createElement('div');
+    head.className = 'gs24-print-head';
+    head.innerHTML = '<b>💰 정부지원금 찾기</b> · 지원금 상세 정보<br><small>저장일 ' +
+      now.getFullYear() + '.' + (now.getMonth() + 1) + '.' + now.getDate() + ' · ' + esc(location.href) + '</small>';
+    clone.insertBefore(head, clone.firstChild);
+    document.body.appendChild(clone);
+
+    var html = document.documentElement;
+    function cleanup() {
+      html.classList.remove('gs24-printing');
+      clone.remove();
+    }
+    html.classList.add('gs24-printing');
+    window.addEventListener('afterprint', cleanup, { once: true });
+    window.print();
+  }
+
+  function showMessage(root, icon, text) {
+    root.innerHTML = '<div class="farm-gray-card-center"><div class="gs24-empty"><b>' + icon + '</b>' + text + '</div></div>' +
+      '<div class="benefit-card">' + bottomButton() + '</div>';
+  }
+
+  function init() {
+    var root = document.getElementById('gs24-detail');
+    if (!root) return;
+    root.className = 'gs24 gs24-detail-wrap';
+    root.addEventListener('click', function (e) {
+      if (e.target.closest('[data-act="list"]')) location.href = GS24.config.listPageUrl;
+      if (e.target.closest('[data-act="pdf"]')) savePdf(root);
+    });
+    // 블로그 탭 등 페이지 어디서든 href="#gs24-pdf" 링크를 누르면 PDF 저장
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest('a[href$="#gs24-pdf"]');
+      if (!link) return;
+      e.preventDefault();
+      savePdf(root);
+    });
+
+    var id = new URLSearchParams(location.search).get('id');
+    if (!id) return showMessage(root, '🤔', '지원금 정보가 없어요.<br><small>목록에서 지원금을 선택해 주세요.</small>');
+
+    root.innerHTML = '<div class="farm-gray-card-center"><div class="gs24-empty"><span class="gs24-spinner"></span><br>불러오는 중...</div></div>';
+    GS24.loadDetail(id).then(function (d) {
+      if (!d) return showMessage(root, '😔', '지원금을 찾을 수 없어요.<br><small>종료되었거나 주소가 바뀌었을 수 있어요.</small>');
+      render(root, d);
+    }).catch(function () {
+      showMessage(root, '⚠️', '정보를 불러오지 못했어요.<br><small>잠시 후 다시 시도해 주세요.</small>');
+    });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+
+//]]>
+</script>
+</body>
+</html>
