@@ -670,6 +670,8 @@ window.GS24_CONFIG = {
     top: '6858157581',       // [디스플레이, 수평, 반응형] 블로그 상단 해더 광고 → 조건 선택 위
     middle: '3416081882',    // [디스플레이, 수평, 반응형] 블로그 중간 광고 → 검색 결과 위
     bottom: '7163755206',    // [디스플레이, 수평, 반응형] 블로그 하단 광고 → 중위소득 계산기 위
+    detailTop: '6858157581',     // 상세: 지원금 이름 상자 아래 · 신청 기한 상자 위 (상단 해더 광고)
+    detailRelated: '6858157581', // 상세: 함께 보면 좋은 지원금 위 (상단 해더 광고)
     // 양쪽 사이드 광고는 기존 블로그처럼 <head>의 애드센스 자동광고(사이드 레일)가 띄움 → 기본은 비워둠
     // 직접 넣고 싶을 때만 세로형(160x600) 광고 단위 번호를 입력
     sideLeft: '',
@@ -1489,6 +1491,9 @@ window.GS24_CONFIG = {
       '<p>' + esc([d.org, d.dept].filter(Boolean).join(' · ')) + '</p>' +
       '</div>' +
 
+      // 광고 ①: 지원금 이름 상자 아래 · 신청 기한 상자 위
+      '<div class="gs24-ad-slot" data-ad="detail-top"></div>' +
+
       '<div class="farm-gray-card">' +
       '<h3>📅 신청 기한</h3>' +
       '<p class="apply-date-text">' + esc(d.deadline || '기한 확인 필요') + '</p>' +
@@ -1505,9 +1510,7 @@ window.GS24_CONFIG = {
       (onlineUrl ? '✍️ 온라인 신청: ' + esc(onlineUrl) + '<br>' : '') +
       (gov24Url ? '🔗 정부24: ' + esc(gov24Url) : '') +
       '</div>' +
-      '</div>' +
-
-      '<div class="gs24-ad-slot"></div>';
+      '</div>';
 
     SECTIONS.forEach(function (s) {
       var text = d[s[0]] && String(d[s[0]]).trim();
@@ -1520,12 +1523,18 @@ window.GS24_CONFIG = {
         (text ? '<div class="gs24-text">' + GS24.multiline(text) + '</div>' : '') + extra + '</div>';
     });
 
-    html += '<div class="gs24-related"></div>' +
+    // 광고 ②: 함께 보면 좋은 지원금 위
+    html += '<div class="gs24-ad-slot" data-ad="detail-related"></div>' +
+      '<div class="gs24-related"></div>' +
       '<p class="gs24-notice">※ 정확한 지원 내용과 자격은 반드시 담당기관에 확인하세요.<br>' +
       '📡 출처: 행정안전부 「대한민국 공공서비스(혜택) 정보」 (공공데이터포털)</p>';
 
     root.innerHTML = html;
     document.title = d.name + ' | 정부지원금 찾기';
+
+    var ads = GS24.config.ads;
+    GS24.renderAd(root.querySelector('[data-ad="detail-top"]'), ads.detailTop, { label: '블로그 상단 해더 광고 (신청 기한 위)' });
+    GS24.renderAd(root.querySelector('[data-ad="detail-related"]'), ads.detailRelated, { label: '블로그 상단 해더 광고 (함께 보면 좋은 지원금 위)' });
     renderRelated(root, d);
   }
 

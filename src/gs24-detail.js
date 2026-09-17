@@ -46,6 +46,9 @@
       '<p>' + esc([d.org, d.dept].filter(Boolean).join(' · ')) + '</p>' +
       '</div>' +
 
+      // 광고 ①: 지원금 이름 상자 아래 · 신청 기한 상자 위
+      '<div class="gs24-ad-slot" data-ad="detail-top"></div>' +
+
       '<div class="farm-gray-card">' +
       '<h3>📅 신청 기한</h3>' +
       '<p class="apply-date-text">' + esc(d.deadline || '기한 확인 필요') + '</p>' +
@@ -62,9 +65,7 @@
       (onlineUrl ? '✍️ 온라인 신청: ' + esc(onlineUrl) + '<br>' : '') +
       (gov24Url ? '🔗 정부24: ' + esc(gov24Url) : '') +
       '</div>' +
-      '</div>' +
-
-      '<div class="gs24-ad-slot"></div>';
+      '</div>';
 
     SECTIONS.forEach(function (s) {
       var text = d[s[0]] && String(d[s[0]]).trim();
@@ -77,12 +78,18 @@
         (text ? '<div class="gs24-text">' + GS24.multiline(text) + '</div>' : '') + extra + '</div>';
     });
 
-    html += '<div class="gs24-related"></div>' +
+    // 광고 ②: 함께 보면 좋은 지원금 위
+    html += '<div class="gs24-ad-slot" data-ad="detail-related"></div>' +
+      '<div class="gs24-related"></div>' +
       '<p class="gs24-notice">※ 정확한 지원 내용과 자격은 반드시 담당기관에 확인하세요.<br>' +
       '📡 출처: 행정안전부 「대한민국 공공서비스(혜택) 정보」 (공공데이터포털)</p>';
 
     root.innerHTML = html;
     document.title = d.name + ' | 정부지원금 찾기';
+
+    var ads = GS24.config.ads;
+    GS24.renderAd(root.querySelector('[data-ad="detail-top"]'), ads.detailTop, { label: '블로그 상단 해더 광고 (신청 기한 위)' });
+    GS24.renderAd(root.querySelector('[data-ad="detail-related"]'), ads.detailRelated, { label: '블로그 상단 해더 광고 (함께 보면 좋은 지원금 위)' });
     renderRelated(root, d);
   }
 
