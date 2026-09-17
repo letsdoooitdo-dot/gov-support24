@@ -1609,6 +1609,31 @@ window.GS24_CONFIG = {
     });
   }
 
+  /*
+   * 인쇄하는 동안 복사본만 남기고 화면의 나머지를 숨김.
+   * 자동광고(양쪽 사이드 레일·아래쪽 앵커 광고)는 style="display:block !important" 를
+   * 직접 달고 있어서 CSS로는 안 지워짐 → 여기서 직접 숨기고, 인쇄가 끝나면 되돌림.
+   */
+  function hideEverythingElse(keep) {
+    var hidden = [];
+    function hideChildren(parent) {
+      Array.prototype.forEach.call(parent.children, function (el) {
+        var tag = el.tagName;
+        if (el === keep || el === document.body || tag === 'HEAD' || tag === 'SCRIPT' || tag === 'STYLE' || tag === 'LINK' || tag === 'TEMPLATE') return;
+        hidden.push([el, el.style.getPropertyValue('display'), el.style.getPropertyPriority('display')]);
+        el.style.setProperty('display', 'none', 'important');
+      });
+    }
+    hideChildren(document.body);
+    hideChildren(document.documentElement); // 자동광고가 body 밖에 붙는 경우
+    return function restore() {
+      hidden.forEach(function (h) {
+        if (h[1]) h[0].style.setProperty('display', h[1], h[2]);
+        else h[0].style.removeProperty('display');
+      });
+    };
+  }
+
   function savePdf(root) {
     var title = root.querySelector('.farm-gray-card-center h2');
     if (!title) return;
@@ -1628,12 +1653,18 @@ window.GS24_CONFIG = {
     document.body.appendChild(clone);
 
     var html = document.documentElement;
+    var restore = hideEverythingElse(clone);
+    var done = false;
     function cleanup() {
+      if (done) return;
+      done = true;
       html.classList.remove('gs24-printing');
+      restore();
       clone.remove();
     }
     html.classList.add('gs24-printing');
     window.addEventListener('afterprint', cleanup, { once: true });
+    setTimeout(cleanup, 60000); // 혹시 인쇄 창 신호를 못 받아도 화면이 원래대로 돌아오게
     window.print();
   }
 
