@@ -12,12 +12,20 @@
   };
   var SORTS = [['deadline', '마감임박순'], ['popular', '인기순'], ['latest', '최신순']];
   var results = [];
+  var moreOpen = false; // '조건 더 보기' 열림 여부 (처음엔 닫힘)
 
   function saveState() {
     try { sessionStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) { /* 저장 안 돼도 동작 */ }
   }
 
+  // 상세 화면에서 돌아왔을 때만 고른 조건을 되살림 (그 외에는 항상 기본값: 개인·가구)
+  function cameFromDetail() {
+    var detailPath = String(GS24.config.detailPageUrl || '').split('?')[0];
+    return !!detailPath && document.referrer.indexOf(detailPath) > -1;
+  }
+
   function loadState() {
+    if (!cameFromDetail()) return;
     try {
       var saved = JSON.parse(sessionStorage.getItem(STORE_KEY) || 'null');
       if (saved && GS24.FILTERS[saved.target]) state = Object.assign(state, saved);
@@ -86,7 +94,8 @@
       basic.map(groupHtml).join('');
 
     if (more.length) {
-      html += '<details class="gs24-more"' + (moreCount ? ' open' : '') + '>' +
+      // 기본은 닫힘. 사용자가 직접 열었을 때만 다시 그려도 열린 상태 유지
+      html += '<details class="gs24-more gs24-filter-more"' + (moreOpen ? ' open' : '') + '>' +
         '<summary>➕ 조건 더 보기 (소득·가구·특성)' + (moreCount ? ' · ' + moreCount + '개 선택됨' : '') + '</summary>' +
         more.map(groupHtml).join('') + '</details>';
     }
@@ -332,7 +341,8 @@
     root.className = 'gs24';
     root.innerHTML =
       '<div class="content-card">' +
-      '<h2 class="card-title">💰 정부지원금 찾기 <small>(공공데이터포털 최신 Data)</small></h2>' +
+      '<h2 class="card-title">💰 정부지원금 찾기</h2>' +
+      '<p class="card-sub">(공공데이터포털 최신 Data)</p>' +
       '<p class="card-text">내 상황을 선택하면 받을 수 있는 정부지원금을 찾아드려요.<br>' +
       '전국 지원금 <b class="gs24-total">10,000</b>여 개 · 📅 <span class="gs24-date">' + koreanDate(new Date()) + '</span> 기준</p>' +
       '</div>' +
@@ -347,6 +357,10 @@
       '정확한 지원 내용과 자격은 반드시 담당기관에 확인하세요.</div>';
 
     root.addEventListener('click', onClick);
+    // '조건 더 보기'를 열고 닫은 상태 기억 (toggle 이벤트는 위로 전달되지 않아 capture 로 받음)
+    root.addEventListener('toggle', function (e) {
+      if (e.target.classList && e.target.classList.contains('gs24-filter-more')) moreOpen = e.target.open;
+    }, true);
     root.addEventListener('input', function (e) {
       var act = e.target.getAttribute('data-act');
       if (act === 'keyword') state.keyword = e.target.value;

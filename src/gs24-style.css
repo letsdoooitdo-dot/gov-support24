@@ -37,7 +37,8 @@
 .gs24 .card-title { font-size: 25px; font-weight: 700; margin: 0 0 16px; color: var(--gs24-text); }
 .gs24 .card-text { font-size: 17px; line-height: 1.7; margin: 0; color: var(--gs24-text); opacity: 0.85; }
 .gs24 .card-text b { color: #dc2626; }
-.gs24 .card-title small { font-size: 0.667em; font-weight: 700; color: #dc2626; white-space: nowrap; } /* 제목의 2/3 크기 */
+.gs24 .card-title { margin-bottom: 4px; }
+.gs24 .card-sub { font-size: 17px; font-weight: 800; color: #000; margin: 0 0 14px; } /* (공공데이터포털 최신 Data) */
 
 /* ───────── 메인: 섹션 제목 ───────── */
 .gs24 .section-title {
@@ -388,6 +389,7 @@
   .gs24 { padding: 0 12px; }
   .gs24 .content-card { padding: 24px; }
   .gs24 .card-title { font-size: 24px; }
+  .gs24 .card-sub { font-size: 16px; margin-bottom: 10px; }
   .gs24 .card-text { font-size: 16px; }
   .gs24 .section-title { font-size: 22px; margin: 36px 0 20px; }
   .gs24-panel { padding: 20px 16px; }
