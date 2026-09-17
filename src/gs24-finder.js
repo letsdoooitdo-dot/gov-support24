@@ -109,20 +109,7 @@
 
   /* ───────── 결과 영역 그리기 ───────── */
 
-  function cardHtml(svc) {
-    var dl = GS24.deadlineInfo(svc.deadline);
-    var topic = GS24.topicInfo(svc.topic);
-    // 긴 기한 글은 한 줄로 줄이고, 자세한 기한은 상세 화면에서 보여줌
-    var dlText = dl.days != null ? dl.text : dl.text.replace(/\s+/g, ' ');
-    return '<a class="support-card ' + topic.color + '" href="' + esc(GS24.detailUrl(svc.id)) + '" title="' + esc(svc.summary) + '">' +
-      '<div class="support-meta">' + topic.icon + ' ' + esc(svc.topic) + ' · ' + esc(svc.supportType || '지원') + '</div>' +
-      '<div class="support-title">' + esc(svc.name) + '</div>' +
-      '<div class="support-org">' + (dl.urgent ? '<span class="support-dday">' + esc(dl.text) + '</span>' : '') +
-      esc(svc.org) + (dl.urgent ? '' : ' · ' + esc(dlText)) + '</div>' +
-      // 버튼 문구: 최대 금액·비율·대표 혜택 (데이터 만들 때 지원내용에서 뽑음)
-      '<div class="support-icon">' + esc(svc.benefit || '확인하기') + '</div>' +
-      '</a>';
-  }
+  var cardHtml = GS24.supportCardHtml; // 카드 모양은 gs24-core.js 에서 공통 관리
 
   function sortResults() {
     var by = {

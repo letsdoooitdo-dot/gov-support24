@@ -980,6 +980,23 @@ window.GS24_CONFIG = {
     };
   };
 
+  // 지원금 카드 한 장 (검색 결과·함께 보면 좋은 지원금에서 같은 모양으로 사용)
+  GS24.supportCardHtml = function (svc) {
+    var esc = GS24.esc;
+    var dl = GS24.deadlineInfo(svc.deadline);
+    var topic = GS24.topicInfo(svc.topic);
+    // 긴 기한 글은 한 줄로 줄이고, 자세한 기한은 상세 화면에서 보여줌
+    var dlText = dl.days != null ? dl.text : dl.text.replace(/\s+/g, ' ');
+    return '<a class="support-card ' + topic.color + '" href="' + esc(GS24.detailUrl(svc.id)) + '" title="' + esc(svc.summary) + '">' +
+      '<div class="support-meta">' + topic.icon + ' ' + esc(svc.topic) + ' · ' + esc(svc.supportType || '지원') + '</div>' +
+      '<div class="support-title">' + esc(svc.name) + '</div>' +
+      '<div class="support-org">' + (dl.urgent ? '<span class="support-dday">' + esc(dl.text) + '</span>' : '') +
+      esc(svc.org) + (dl.urgent ? '' : ' · ' + esc(dlText)) + '</div>' +
+      // 버튼 문구: 최대 금액·비율·대표 혜택 (데이터 만들 때 지원내용에서 뽑음)
+      '<div class="support-icon">' + esc(svc.benefit || '확인하기') + '</div>' +
+      '</a>';
+  };
+
   /* ───────── 애드센스 광고 ───────── */
 
   function loadAdScript() {
@@ -1179,20 +1196,7 @@ window.GS24_CONFIG = {
 
   /* ───────── 결과 영역 그리기 ───────── */
 
-  function cardHtml(svc) {
-    var dl = GS24.deadlineInfo(svc.deadline);
-    var topic = GS24.topicInfo(svc.topic);
-    // 긴 기한 글은 한 줄로 줄이고, 자세한 기한은 상세 화면에서 보여줌
-    var dlText = dl.days != null ? dl.text : dl.text.replace(/\s+/g, ' ');
-    return '<a class="support-card ' + topic.color + '" href="' + esc(GS24.detailUrl(svc.id)) + '" title="' + esc(svc.summary) + '">' +
-      '<div class="support-meta">' + topic.icon + ' ' + esc(svc.topic) + ' · ' + esc(svc.supportType || '지원') + '</div>' +
-      '<div class="support-title">' + esc(svc.name) + '</div>' +
-      '<div class="support-org">' + (dl.urgent ? '<span class="support-dday">' + esc(dl.text) + '</span>' : '') +
-      esc(svc.org) + (dl.urgent ? '' : ' · ' + esc(dlText)) + '</div>' +
-      // 버튼 문구: 최대 금액·비율·대표 혜택 (데이터 만들 때 지원내용에서 뽑음)
-      '<div class="support-icon">' + esc(svc.benefit || '확인하기') + '</div>' +
-      '</a>';
-  }
+  var cardHtml = GS24.supportCardHtml; // 카드 모양은 gs24-core.js 에서 공통 관리
 
   function sortResults() {
     var by = {
@@ -1575,14 +1579,11 @@ window.GS24_CONFIG = {
         .slice(0, 5);
 
       if (!related.length) { box.innerHTML = fallback; return; }
+      // 카드 모양은 메인 화면(검색 결과)과 똑같이
       box.innerHTML =
         '<div class="benefit-card">' +
         '<h2 class="benefit-title"><span class="icon">🔥</span>함께 보면 좋은 지원금</h2>' +
-        '<div class="benefit-list">' + related.map(function (s) {
-          return '<a class="benefit-item" href="' + esc(GS24.detailUrl(s.id)) + '">' +
-            '<span class="benefit-text">' + esc(s.name) + '<small>' + esc(s.org) + '</small></span>' +
-            '<span class="benefit-arrow">›</span></a>';
-        }).join('') + '</div>' +
+        '<div class="support-grid">' + related.map(GS24.supportCardHtml).join('') + '</div>' +
         bottomButton() +
         '</div>';
     }).catch(function () {

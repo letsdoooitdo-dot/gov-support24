@@ -110,14 +110,11 @@
         .slice(0, 5);
 
       if (!related.length) { box.innerHTML = fallback; return; }
+      // 카드 모양은 메인 화면(검색 결과)과 똑같이
       box.innerHTML =
         '<div class="benefit-card">' +
         '<h2 class="benefit-title"><span class="icon">🔥</span>함께 보면 좋은 지원금</h2>' +
-        '<div class="benefit-list">' + related.map(function (s) {
-          return '<a class="benefit-item" href="' + esc(GS24.detailUrl(s.id)) + '">' +
-            '<span class="benefit-text">' + esc(s.name) + '<small>' + esc(s.org) + '</small></span>' +
-            '<span class="benefit-arrow">›</span></a>';
-        }).join('') + '</div>' +
+        '<div class="support-grid">' + related.map(GS24.supportCardHtml).join('') + '</div>' +
         bottomButton() +
         '</div>';
     }).catch(function () {
