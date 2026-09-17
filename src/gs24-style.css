@@ -97,8 +97,9 @@
   cursor: pointer; padding: 16px 0; font-size: 16px; font-weight: 600; color: var(--gs24-primary); list-style: none;
 }
 .gs24-more > summary::-webkit-details-marker { display: none; }
-.gs24-more > summary::after { content: ' ▼'; font-size: 12px; }
-.gs24-more[open] > summary::after { content: ' ▲'; }
+/* ▼ ▲ 기호는 블로그스팟이 &#9660; 글자로 바꿔버리므로 CSS 코드(\25BC, \25B2)로 씀 */
+.gs24-more > summary::after { content: ' \25BC'; font-size: 12px; }
+.gs24-more[open] > summary::after { content: ' \25B2'; }
 
 .gs24-actions { display: flex; gap: 10px; }
 .gs24-btn-main {
