@@ -129,6 +129,20 @@
    * PDF 저장: 상세 내용만 복사해 body 바로 아래에 두고 브라우저 인쇄 창을 열어요.
    * (인쇄 창에서 '대상: PDF로 저장' 선택. 블로그 테마의 헤더·광고 등은 인쇄되지 않음)
    */
+  // PDF에는 광고를 넣지 않음: 광고 자리, 애드센스 요소, 자동광고가 본문 단어에 붙인 링크(광고 인텐트)를 지움
+  function removeAds(clone) {
+    var adSelectors = '.gs24-ad-slot, ins, iframe, [data-ad-client], [data-ad-slot], [data-google-query-id],' +
+      '[id^="aswift"], [id^="google_ads"], [class*="google-auto-placed"], [class*="adsbygoogle"]';
+    Array.prototype.forEach.call(clone.querySelectorAll(adSelectors), function (el) { el.remove(); });
+
+    // 광고 인텐트 링크는 글자만 남기고 링크를 없앰
+    var adLinks = 'a[href="#"], a[href=""], a[href^="javascript:"], a[href*="googleadservices"],' +
+      'a[href*="doubleclick"], a[href*="googlesyndication"], a[href*="/aclk"]';
+    Array.prototype.forEach.call(clone.querySelectorAll(adLinks), function (a) {
+      a.parentNode.replaceChild(document.createTextNode(a.textContent || ''), a);
+    });
+  }
+
   function savePdf(root) {
     var title = root.querySelector('.farm-gray-card-center h2');
     if (!title) return;
@@ -137,6 +151,7 @@
     var clone = root.cloneNode(true);
     clone.removeAttribute('id');
     clone.classList.add('gs24-print-root');
+    removeAds(clone);
 
     var now = new Date();
     var head = document.createElement('div');
