@@ -65,7 +65,7 @@ body.page-detail { background: #f7f9fc; }
   border-bottom: 1px solid #e2e8f0; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 .shell-header { flex-direction: column; line-height: 1.2; }
-.shell-sub { margin-top: 2px; font-size: 13px; font-weight: 800; color: #000; }
+.shell-sub { margin-top: 3px; font-size: 16px; font-weight: 800; color: #000; }
 .shell-logo {
   font-size: 24px; font-weight: 700; text-decoration: none;
   background: linear-gradient(135deg, #0ea896, #06b6d4);
@@ -100,7 +100,7 @@ body.page-detail { background: #f7f9fc; }
 @media (max-width: 480px) {
   body { padding-top: 160px; }
   .shell-logo { font-size: 20px; }
-  .shell-sub { font-size: 12px; }
+  .shell-sub { font-size: 14px; }
   .shell-tabs { padding: 10px 12px; }
   .shell-tabs a { padding: 12px 6px; font-size: 13px; }
 }
@@ -145,7 +145,7 @@ body.page-detail { background: #f7f9fc; }
 .gs24 .card-text { font-size: 17px; line-height: 1.7; margin: 0; color: var(--gs24-text); opacity: 0.85; }
 .gs24 .card-text b { color: #dc2626; }
 .gs24 .card-title { margin-bottom: 4px; }
-.gs24 .card-sub { font-size: 17px; font-weight: 800; color: #000; margin: 0 0 14px; } /* (공공데이터포털 최신 Data) */
+.gs24 .card-sub { font-size: 17px; font-weight: 800; color: #000; margin: 0 0 14px; } /* (매일 최신 Data로 업데이트 됩니다.) */
 
 /* ───────── 메인: 섹션 제목 ───────── */
 .gs24 .section-title {
@@ -528,7 +528,7 @@ body.page-detail { background: #f7f9fc; }
 </head>
 
 <body>
-<header class='shell-header'><a class='shell-logo' expr:href='data:blog.homepageUrl'>정부지원금 찾기</a><span class='shell-sub'>(공공데이터포털 최신 Data)</span></header>
+<header class='shell-header'><a class='shell-logo' expr:href='data:blog.homepageUrl'>정부지원금 찾기</a><span class='shell-sub'>(매일 최신 Data로 업데이트 됩니다.)</span></header>
 <nav class='shell-tabs' id='gs24-tabs'>
   <ul>
     <li><a class='active' href='/#gs24-search'>조건 선택</a></li>
@@ -1416,7 +1416,7 @@ window.GS24_CONFIG = {
     root.innerHTML =
       '<div class="content-card">' +
       '<h2 class="card-title">💰 정부지원금 찾기</h2>' +
-      '<p class="card-sub">(공공데이터포털 최신 Data)</p>' +
+      '<p class="card-sub">(매일 최신 Data로 업데이트 됩니다.)</p>' +
       '<p class="card-text">내 상황을 선택하면 받을 수 있는 정부지원금을 찾아드려요.<br>' +
       '전국 지원금 <b class="gs24-total">10,000</b>여 개 · 📅 <span class="gs24-date">' + koreanDate(new Date()) + '</span> 기준</p>' +
       '</div>' +

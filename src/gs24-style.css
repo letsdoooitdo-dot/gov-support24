@@ -38,7 +38,7 @@
 .gs24 .card-text { font-size: 17px; line-height: 1.7; margin: 0; color: var(--gs24-text); opacity: 0.85; }
 .gs24 .card-text b { color: #dc2626; }
 .gs24 .card-title { margin-bottom: 4px; }
-.gs24 .card-sub { font-size: 17px; font-weight: 800; color: #000; margin: 0 0 14px; } /* (공공데이터포털 최신 Data) */
+.gs24 .card-sub { font-size: 17px; font-weight: 800; color: #000; margin: 0 0 14px; } /* (매일 최신 Data로 업데이트 됩니다.) */
 
 /* ───────── 메인: 섹션 제목 ───────── */
 .gs24 .section-title {
