@@ -49,7 +49,7 @@
   display: inline-block; margin-right: 6px; padding: 1px 10px; border-radius: 12px;
   background: #ef4444; color: #fff; font-size: 15px; font-weight: 800;
 }
-.gs24 .card-points .card-hot { color: #b91c1c; }
+.gs24 .card-points .card-hot { color: #ef4444; }
 
 /* ───────── 메인: 섹션 제목 ───────── */
 .gs24 .section-title {
@@ -400,7 +400,9 @@
   .gs24 { padding: 0 12px; }
   .gs24 .content-card { padding: 24px; }
   .gs24 .card-title { font-size: 24px; }
-  .gs24 .card-sub { font-size: 16px; margin-bottom: 10px; }
+  .gs24 .card-points { margin-bottom: 12px; }
+  .gs24 .card-points li { font-size: 16px; margin-top: 6px; }
+  .gs24 .card-points .card-dday { font-size: 14px; padding: 1px 8px; }
   .gs24 .card-text { font-size: 16px; }
   .gs24 .section-title { font-size: 22px; margin: 36px 0 20px; }
   .gs24-panel { padding: 20px 16px; }
