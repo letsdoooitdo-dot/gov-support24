@@ -329,7 +329,10 @@
     root.innerHTML =
       '<div class="content-card">' +
       '<h2 class="card-title">💰 정부지원금 찾기</h2>' +
-      '<p class="card-sub">(매일 최신 Data로 업데이트 됩니다.)</p>' +
+      '<ul class="card-points">' +
+      '<li>매일 최신 Data로 업데이트 됩니다.</li>' +
+      '<li><span class="card-dday">D-1</span><span class="card-hot">마감임박 지원금 바로 확인!!</span></li>' +
+      '</ul>' +
       '<p class="card-text">내 상황을 선택하면 받을 수 있는 정부지원금을 찾아드려요.<br>' +
       '전국 지원금 <b class="gs24-total">10,000</b>여 개 · 📅 <span class="gs24-date">' + koreanDate(new Date()) + '</span> 기준</p>' +
       '</div>' +

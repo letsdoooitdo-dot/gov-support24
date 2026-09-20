@@ -63,7 +63,7 @@
 </head>
 
 <body>
-<header class='shell-header'><a class='shell-logo' expr:href='data:blog.homepageUrl'>정부지원금 찾기</a><span class='shell-sub'>(매일 최신 Data로 업데이트 됩니다.)</span></header>
+<header class='shell-header'><a class='shell-logo' expr:href='data:blog.homepageUrl'>정부지원금 찾기</a><span class='shell-sub'>매일 최신 Data로 업데이트 <i class='shell-sub-sep'>/</i> <b>마감임박 지원금도 바로 확인!!</b></span></header>
 <nav class='shell-tabs' id='gs24-tabs'>
   <ul>
     <li><a class='active' href='/#gs24-search'>조건 선택</a></li>
