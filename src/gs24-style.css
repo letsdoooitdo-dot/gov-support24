@@ -398,12 +398,13 @@
 }
 @media (max-width: 480px) {
   .gs24 { padding: 0 12px; }
-  .gs24 .content-card { padding: 24px; }
+  .gs24 .content-card { padding: 22px 16px; }
   .gs24 .card-title { font-size: 24px; }
   .gs24 .card-points { margin-bottom: 12px; }
   .gs24 .card-points li { font-size: 16px; margin-top: 6px; }
   .gs24 .card-points .card-dday { font-size: 14px; padding: 1px 8px; }
-  .gs24 .card-text { font-size: 16px; }
+  /* 마지막 두 줄은 줄바꿈 없이 한 줄씩 (화면 폭에 맞춰 글자 크기가 줄어듦) */
+  .gs24 .card-text { font-size: clamp(9px, 2.9vw, 17px); white-space: nowrap; }
   .gs24 .section-title { font-size: 22px; margin: 36px 0 20px; }
   .gs24-panel { padding: 20px 16px; }
   .gs24-chips { grid-template-columns: repeat(2, 1fr); }
