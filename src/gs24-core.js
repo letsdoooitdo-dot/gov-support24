@@ -341,9 +341,15 @@
   GS24.PARTNER_SITES = [
     {
       name: '갈까말까',
-      desc: '오늘 기름 넣을까 말까? 우리 동네 주유소 최저가 비교',
+      desc: '제일 싼 주유소가 제일 이득일까?\n이동거리까지 계산해 주유소를 찾음.',
       url: 'https://16story-005.letsdoooit.com/',
       img: 'https://letsdoooitdo-dot.github.io/gov-support24/src/img/galkka-logo.jpg'
+    },
+    {
+      name: '심야약국 찾기',
+      desc: '지역을 선택한 후 검색하면 가까운 심야약국을 찾아드립니다!',
+      url: 'https://16story-004.letsdoooit.com/',
+      img: 'https://letsdoooitdo-dot.github.io/gov-support24/src/img/pharm-logo.jpg'
     }
   ];
 
@@ -357,7 +363,7 @@
           '<img class="gs24-partner-img" src="' + esc(p.img) + '" alt="' + esc(p.name) + '" loading="lazy">' +
           '<div class="gs24-partner-body">' +
           '<div class="gs24-partner-title">' + esc(p.name) + '</div>' +
-          '<div class="gs24-partner-desc">' + esc(p.desc) + '</div>' +
+          '<div class="gs24-partner-desc">' + GS24.multiline(p.desc) + '</div>' +
           '</div></a>';
       }).join('') +
       '</div>';
