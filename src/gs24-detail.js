@@ -96,7 +96,7 @@
   // 같은 분야 인기 지원금 5개 (우리 지역 또는 전국)
   function renderRelated(root, d) {
     var box = root.querySelector('.gs24-related');
-    var fallback = '<div class="benefit-card">' + bottomButton() + '</div>';
+    var fallback = '<div class="benefit-card">' + GS24.partnerSitesHtml() + bottomButton() + '</div>';
 
     GS24.loadList().then(function (list) {
       var self = list.filter(function (s) { return s.id === d.id; })[0];
@@ -115,6 +115,7 @@
         '<div class="benefit-card">' +
         '<h2 class="benefit-title"><span class="icon">🔥</span>함께 보면 좋은 지원금</h2>' +
         '<div class="support-grid">' + related.map(GS24.supportCardHtml).join('') + '</div>' +
+        GS24.partnerSitesHtml() +
         bottomButton() +
         '</div>';
     }).catch(function () {

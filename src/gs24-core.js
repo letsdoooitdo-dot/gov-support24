@@ -337,6 +337,32 @@
       '</a>';
   };
 
+  // 함께 운영 중인 다른 사이트 ("함께 보면 좋은 사이트"에 소개, 검색 화면·상세 화면에서 같이 사용)
+  GS24.PARTNER_SITES = [
+    {
+      name: '갈까말까',
+      desc: '오늘 기름 넣을까 말까? 우리 동네 주유소 최저가 비교',
+      url: 'https://16story-005.letsdoooit.com/',
+      img: 'https://letsdoooitdo-dot.github.io/gov-support24/src/img/galkka-logo.jpg'
+    }
+  ];
+
+  GS24.partnerSitesHtml = function () {
+    if (!GS24.PARTNER_SITES.length) return '';
+    var esc = GS24.esc;
+    return '<h2 class="section-title">🔗 함께 보면 좋은 사이트</h2>' +
+      '<div class="gs24-partner-grid">' +
+      GS24.PARTNER_SITES.map(function (p) {
+        return '<a class="gs24-partner-card" href="' + esc(p.url) + '" target="_blank" rel="noopener">' +
+          '<img class="gs24-partner-img" src="' + esc(p.img) + '" alt="' + esc(p.name) + '" loading="lazy">' +
+          '<div class="gs24-partner-body">' +
+          '<div class="gs24-partner-title">' + esc(p.name) + '</div>' +
+          '<div class="gs24-partner-desc">' + esc(p.desc) + '</div>' +
+          '</div></a>';
+      }).join('') +
+      '</div>';
+  };
+
   /* ───────── 애드센스 광고 ───────── */
 
   function loadAdScript() {

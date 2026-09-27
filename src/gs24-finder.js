@@ -341,6 +341,7 @@
       '<div class="gs24-panel gs24-filters"></div>' +
       '<div class="gs24-ad-slot" data-ad="middle"></div>' +
       '<div class="gs24-results" id="gs24-results"></div>' +
+      GS24.partnerSitesHtml() +
       '<div class="gs24-ad-slot" data-ad="bottom"></div>' +
       calcHtml() +
       '<div class="gs24-source" id="gs24-source">📡 <b>데이터 출처</b> 행정안전부 「대한민국 공공서비스(혜택) 정보」 (공공데이터포털)<br>' +

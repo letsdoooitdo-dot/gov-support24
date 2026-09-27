@@ -322,6 +322,20 @@ body.page-detail { background: #f7f9fc; }
 }
 .gs24-pages button:disabled { opacity: 0.4; cursor: default; }
 
+/* 함께 보면 좋은 사이트 (검색 화면 · 상세 화면 공용) */
+.gs24-partner-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 20px 0 0; }
+.gs24-partner-card {
+  display: block; background: #fff; border: 1px solid var(--gs24-border); border-radius: 20px;
+  overflow: hidden; box-shadow: var(--gs24-shadow-md); transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.gs24-partner-card:hover { transform: translateY(-4px); box-shadow: var(--gs24-shadow-xl); }
+.gs24-partner-img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.gs24-partner-body { padding: 14px 16px 18px; text-align: center; }
+.gs24-partner-title { font-size: 15px; font-weight: 700; color: var(--gs24-text); margin-bottom: 4px; word-break: keep-all; }
+.gs24-partner-desc { font-size: 12.5px; color: var(--gs24-text2); line-height: 1.4; word-break: keep-all; }
+/* 상세 화면 안(함께 보면 좋은 지원금 카드 안)에서는 여백을 좀 더 좁게 */
+.benefit-card .section-title { margin: 28px 0 16px; }
+
 .gs24-spinner {
   display: inline-block; width: 40px; height: 40px;
   border: 4px solid var(--gs24-border); border-top-color: var(--gs24-primary);
@@ -1013,6 +1027,32 @@ window.GS24_CONFIG = {
       '</a>';
   };
 
+  // 함께 운영 중인 다른 사이트 ("함께 보면 좋은 사이트"에 소개, 검색 화면·상세 화면에서 같이 사용)
+  GS24.PARTNER_SITES = [
+    {
+      name: '갈까말까',
+      desc: '오늘 기름 넣을까 말까? 우리 동네 주유소 최저가 비교',
+      url: 'https://16story-005.letsdoooit.com/',
+      img: 'https://letsdoooitdo-dot.github.io/gov-support24/src/img/galkka-logo.jpg'
+    }
+  ];
+
+  GS24.partnerSitesHtml = function () {
+    if (!GS24.PARTNER_SITES.length) return '';
+    var esc = GS24.esc;
+    return '<h2 class="section-title">🔗 함께 보면 좋은 사이트</h2>' +
+      '<div class="gs24-partner-grid">' +
+      GS24.PARTNER_SITES.map(function (p) {
+        return '<a class="gs24-partner-card" href="' + esc(p.url) + '" target="_blank" rel="noopener">' +
+          '<img class="gs24-partner-img" src="' + esc(p.img) + '" alt="' + esc(p.name) + '" loading="lazy">' +
+          '<div class="gs24-partner-body">' +
+          '<div class="gs24-partner-title">' + esc(p.name) + '</div>' +
+          '<div class="gs24-partner-desc">' + esc(p.desc) + '</div>' +
+          '</div></a>';
+      }).join('') +
+      '</div>';
+  };
+
   /* ───────── 애드센스 광고 ───────── */
 
   function loadAdScript() {
@@ -1444,6 +1484,7 @@ window.GS24_CONFIG = {
       '<div class="gs24-panel gs24-filters"></div>' +
       '<div class="gs24-ad-slot" data-ad="middle"></div>' +
       '<div class="gs24-results" id="gs24-results"></div>' +
+      GS24.partnerSitesHtml() +
       '<div class="gs24-ad-slot" data-ad="bottom"></div>' +
       calcHtml() +
       '<div class="gs24-source" id="gs24-source">📡 <b>데이터 출처</b> 행정안전부 「대한민국 공공서비스(혜택) 정보」 (공공데이터포털)<br>' +
@@ -1584,7 +1625,7 @@ window.GS24_CONFIG = {
   // 같은 분야 인기 지원금 5개 (우리 지역 또는 전국)
   function renderRelated(root, d) {
     var box = root.querySelector('.gs24-related');
-    var fallback = '<div class="benefit-card">' + bottomButton() + '</div>';
+    var fallback = '<div class="benefit-card">' + GS24.partnerSitesHtml() + bottomButton() + '</div>';
 
     GS24.loadList().then(function (list) {
       var self = list.filter(function (s) { return s.id === d.id; })[0];
@@ -1603,6 +1644,7 @@ window.GS24_CONFIG = {
         '<div class="benefit-card">' +
         '<h2 class="benefit-title"><span class="icon">🔥</span>함께 보면 좋은 지원금</h2>' +
         '<div class="support-grid">' + related.map(GS24.supportCardHtml).join('') + '</div>' +
+        GS24.partnerSitesHtml() +
         bottomButton() +
         '</div>';
     }).catch(function () {

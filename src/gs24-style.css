@@ -213,6 +213,20 @@
 }
 .gs24-pages button:disabled { opacity: 0.4; cursor: default; }
 
+/* 함께 보면 좋은 사이트 (검색 화면 · 상세 화면 공용) */
+.gs24-partner-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 20px 0 0; }
+.gs24-partner-card {
+  display: block; background: #fff; border: 1px solid var(--gs24-border); border-radius: 20px;
+  overflow: hidden; box-shadow: var(--gs24-shadow-md); transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.gs24-partner-card:hover { transform: translateY(-4px); box-shadow: var(--gs24-shadow-xl); }
+.gs24-partner-img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.gs24-partner-body { padding: 14px 16px 18px; text-align: center; }
+.gs24-partner-title { font-size: 15px; font-weight: 700; color: var(--gs24-text); margin-bottom: 4px; word-break: keep-all; }
+.gs24-partner-desc { font-size: 12.5px; color: var(--gs24-text2); line-height: 1.4; word-break: keep-all; }
+/* 상세 화면 안(함께 보면 좋은 지원금 카드 안)에서는 여백을 좀 더 좁게 */
+.benefit-card .section-title { margin: 28px 0 16px; }
+
 .gs24-spinner {
   display: inline-block; width: 40px; height: 40px;
   border: 4px solid var(--gs24-border); border-top-color: var(--gs24-primary);
